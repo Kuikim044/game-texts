@@ -1,3 +1,4 @@
-start_game,ui,Start Game,เริ่มเกม
-quit,ui,Quit,ออกเกม
-money,ui,Cash,เงินสด
+id	type	en	th
+start_game	ui	Start Game	เริ่มเกม
+quit	ui	Quit	ออกเกม
+money	ui	Cash	เงินสด
