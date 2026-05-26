@@ -45,8 +45,8 @@ const COLORS = {
 
 const I18N = {
   en: {
-    tabs: { dashboard: "Dashboard", analysis: "Analysis Table", report: "Insight Report", workflow: "AI Workflow", validation: "Human Review" },
-    pageTitles: { dashboard: "Analytics Dashboard", analysis: "Feedback Analysis Table", report: "Executive Insight Report", workflow: "AI Workflow", validation: "Validation / Human Review" },
+    tabs: { dashboard: "Dashboard", analysis: "Analysis Table", report: "Insight Report", shortReport: "Short Report", validation: "Human Review" },
+    pageTitles: { dashboard: "Analytics Dashboard", analysis: "Feedback Analysis Table", report: "Executive Insight Report", shortReport: "Short Action Report", validation: "Validation / Human Review" },
     panels: ["Sentiment Distribution", "Priority Distribution", "Category Distribution", "Team Ownership", "Top Mentioned Issues", "Common Complaints", "Keyword Analysis", "Critical Risk Areas", "AI Generated Key Insights", "Most Important Feedback", "Recommendation Highlights", "Impact Heatmap"],
     buttons: { refresh: "Refresh", csv: "Export CSV", excel: "Export Excel", previous: "Previous", next: "Next", lang: "ไทย" },
     table: { search: "Search feedback, summary, owner...", sentiments: "All Sentiments", categories: "All Categories", priorities: "All Priorities", showing: "Showing", of: "of", rows: "rows", page: "Page" },
@@ -65,8 +65,8 @@ const I18N = {
     brand: { eyebrow: "AI-powered player voice analytics", auto: "Auto Analysis", loading: "Loading data...", waiting: "Waiting for dataset" }
   },
   th: {
-    tabs: { dashboard: "แดชบอร์ด", analysis: "ตารางวิเคราะห์", report: "รายงาน Insight", workflow: "Workflow AI", validation: "ตรวจทานโดยคน" },
-    pageTitles: { dashboard: "แดชบอร์ดวิเคราะห์ Feedback", analysis: "ตารางวิเคราะห์ Feedback", report: "รายงาน Insight สำหรับผู้บริหาร", workflow: "Workflow การทำงานของ AI", validation: "Validation / ตรวจทานโดยคน" },
+    tabs: { dashboard: "แดชบอร์ด", analysis: "ตารางวิเคราะห์", report: "รายงาน Insight", shortReport: "Report สั้น", validation: "ตรวจทานโดยคน" },
+    pageTitles: { dashboard: "แดชบอร์ดวิเคราะห์ Feedback", analysis: "ตารางวิเคราะห์ Feedback", report: "รายงาน Insight สำหรับผู้บริหาร", shortReport: "Report สั้นสำหรับใช้งานต่อ", validation: "Validation / ตรวจทานโดยคน" },
     panels: ["สัดส่วน Sentiment", "สัดส่วน Priority", "สัดส่วน Category", "สัดส่วนทีม Owner", "ประเด็นที่ถูกพูดถึงมากที่สุด", "Complaint ที่พบบ่อย", "วิเคราะห์ Keyword", "พื้นที่เสี่ยง Critical", "Insight สำคัญจาก AI", "Feedback ที่สำคัญที่สุด", "ข้อแนะนำหลัก", "Heatmap ผลกระทบ"],
     buttons: { refresh: "รีเฟรช", csv: "Export CSV", excel: "Export Excel", previous: "ก่อนหน้า", next: "ถัดไป", lang: "EN" },
     table: { search: "ค้นหา feedback, summary, owner...", sentiments: "ทุก Sentiment", categories: "ทุก Category", priorities: "ทุก Priority", showing: "แสดง", of: "จาก", rows: "รายการ", page: "หน้า" },
@@ -601,7 +601,7 @@ function renderAll() {
   renderDashboard();
   renderTable();
   renderReport();
-  renderWorkflow();
+  renderShortReport();
   renderValidation();
 }
 
@@ -1016,88 +1016,84 @@ function renderReport() {
   `;
 }
 
-function renderWorkflow() {
+function renderShortReport() {
   const analytics = state.analytics;
-  const categoryCount = Object.keys(analytics.category).length;
-  const ownerCount = Object.keys(analytics.owner).length;
-  const topIssue = analytics.topIssues.find(([name]) => name !== "General feedback") || analytics.topIssues[0] || ["General feedback", 0];
+  const topIssues = analytics.topIssues.slice(0, 5);
+  const topCategories = sortEntries(analytics.category).slice(0, 4);
+  const topOwners = sortEntries(analytics.owner).slice(0, 4);
+  const important = analytics.important.slice(0, 3);
+  const recs = localizedList(analytics.recommendations).slice(0, 4);
+  const insights = localizedList(analytics.insights).slice(0, 3);
+  const negative = analytics.sentiment.Negative || 0;
+  const neutral = analytics.sentiment.Neutral || 0;
+  const positive = analytics.sentiment.Positive || 0;
   const highRisk = (analytics.priority.Critical || 0) + (analytics.priority.High || 0);
+  const mainIssue = topIssues[0] || ["General feedback", 0];
+  const mainRisk = analytics.risks[0] || { category: "Unknown", score: 0, critical: 0, high: 0 };
 
   if (state.lang === "th") {
-    document.getElementById("workflowContent").innerHTML = `
-      ${reportSection("Workflow Explanation", `<p><strong>Data → AI → Clean → Insight → Report</strong> คือ pipeline ที่เว็บใช้จริงตั้งแต่รับ raw feedback จนกลายเป็น dashboard และ executive report. ระบบนี้เป็น rule-based AI heuristic ที่รันใน browser จึงอธิบายได้ว่าแต่ละผลลัพธ์เกิดจาก rule, keyword, metadata และ impact score ใด.</p>`)}
-      ${reportSection("Step 1 — Data", `<ul class="report-list">
-        <li><strong>Input:</strong> feedback จาก <strong>feedback-data.js</strong>; ถ้าไม่มีจะ fallback ไป <strong>feedback.json</strong> และ <strong>feedback.csv</strong>.</li>
-        <li><strong>What happens:</strong> ระบบโหลดข้อมูล <strong>${analytics.total}</strong> rows และเก็บ field สำคัญ เช่น feedback text, segment, platform, version, source, game area hint.</li>
-        <li><strong>Output:</strong> raw feedback rows ที่พร้อมส่งเข้า AI classification layer.</li>
+    document.getElementById("shortReportContent").innerHTML = `
+      <section class="short-hero">
+        <p class="eyebrow">1-3 page readable report</p>
+        <h3>Report สั้น: Player Feedback Action Brief</h3>
+        <p>สรุป feedback ทั้งหมด <strong>${analytics.total}</strong> รายการ เพื่อให้ทีมใช้ตัดสินใจต่อได้ทันที โดยโฟกัสปัญหาหลัก, pattern, risk และ action ที่ควรทำต่อ.</p>
+      </section>
+      <section class="short-grid">
+        <div><strong>${analytics.total}</strong><span>Feedback ทั้งหมด</span></div>
+        <div><strong>${percent(negative)}</strong><span>Negative sentiment</span></div>
+        <div><strong>${highRisk}</strong><span>Critical + High</span></div>
+        <div><strong>${escapeHtml(mainIssue[0])}</strong><span>Issue หลัก (${mainIssue[1]} mentions)</span></div>
+      </section>
+      ${reportSection("1. Executive Summary", `<p>ภาพรวม feedback ชี้ว่าผู้เล่นยังมี engagement กับเกม แต่แรงเสียดทานหลักมาจาก <strong>${escapeHtml(mainIssue[0])}</strong>, category ที่เด่นคือ ${topCategories.map(([name]) => name).join(", ")} และมีรายการ high-risk ทั้งหมด <strong>${highRisk}</strong> รายการที่ควรเข้า triage ก่อน patch ถัดไป.</p>`)}
+      ${reportSection("2. Key Numbers", `<ul class="report-list">
+        <li>Sentiment: Positive <strong>${positive}</strong> (${percent(positive)}), Neutral <strong>${neutral}</strong> (${percent(neutral)}), Negative <strong>${negative}</strong> (${percent(negative)}).</li>
+        <li>Top categories: ${topCategories.map(([name, count]) => `<strong>${escapeHtml(name)}</strong> ${count}`).join(", ")}.</li>
+        <li>Main risk area: <strong>${escapeHtml(mainRisk.category)}</strong> risk score ${mainRisk.score}, Critical ${mainRisk.critical}, High ${mainRisk.high}.</li>
       </ul>`)}
-      ${reportSection("Step 2 — AI", `<ul class="report-list">
-        <li><strong>Input:</strong> player_feedback + metadata ของแต่ละ row.</li>
-        <li><strong>What happens:</strong> วิเคราะห์ sentiment, category, priority, issue cluster, suggested owner, confidence และ note ด้วย keyword/rule scoring.</li>
-        <li><strong>Output:</strong> structured fields ได้แก่ <strong>feedback_id, player_feedback, sentiment, category, priority, ai_summary, suggested_owner, confidence, note</strong>.</li>
-        <li><strong>Current coverage:</strong> พบ category <strong>${categoryCount}</strong> กลุ่ม และ owner team <strong>${ownerCount}</strong> ทีม.</li>
+      ${reportSection("3. Top Issues", list(topIssues.map(([name, count]) => `<strong>${escapeHtml(name)}</strong>: ${count} mentions (${percent(count)}).`)))}
+      ${reportSection("4. Project Workflow Explanation", buildProjectWorkflow("th", analytics.total))}
+      ${reportSection("5. What It Means", list(insights.map((item) => `<strong>${escapeHtml(item.title)}</strong>: ${escapeHtml(item.text)}`)))}
+      ${reportSection("6. Recommended Actions", list(recs.map((item) => `<strong>${escapeHtml(item.title)}</strong>: ${escapeHtml(item.text)}`)))}
+      ${reportSection("7. Owner Focus", list(topOwners.map(([owner, count]) => `<strong>${escapeHtml(owner)}</strong>: ${count} items (${percent(count)}).`)))}
+      ${reportSection("8. Example Feedback To Use", list(important.map((row) => `<strong>${escapeHtml(row.feedback_id)} · ${escapeHtml(row.priority)} · ${escapeHtml(row.category)}</strong><br>${escapeHtml(row.player_feedback)}`)))}
+      ${reportSection("9. Next 7 Days", `<ul class="report-list">
+        <li>Day 1-2: ตรวจ Critical/High queue และแยกเป็น bug, design tuning, economy, communication.</li>
+        <li>Day 3-5: ให้ owner แต่ละทีมยืนยัน action, effort และ patch target.</li>
+        <li>Day 6-7: สื่อสาร top known issues กับ community และเตรียม metric เทียบหลังแก้.</li>
       </ul>`)}
-      ${reportSection("Step 3 — Clean", `<ul class="report-list">
-        <li><strong>Input:</strong> AI output ที่ยังมีข้อความสุภาพ/คำเกริ่นจาก raw feedback.</li>
-        <li><strong>What happens:</strong> ตัด lead-in เช่น “อยากฝากทีมงานว่า”, “ส่วนตัวคิดว่า”, “เจอบ่อยมากว่า” และตัด sign-off เช่น “ขอบคุณครับ/ค่ะ”.</li>
-        <li><strong>Output:</strong> summary ที่อ่านง่าย พร้อม normalized labels สำหรับ filter, sort, chart และ export.</li>
-      </ul>`)}
-      ${reportSection("Step 4 — Insight", `<ul class="report-list">
-        <li><strong>Input:</strong> clean structured analytics rows.</li>
-        <li><strong>What happens:</strong> aggregate ตาม sentiment, category, priority, owner, issue cluster และ keyword.</li>
-        <li><strong>Output:</strong> top issue หลักคือ <strong>${escapeHtml(topIssue[0])}</strong> (${topIssue[1]} mentions) และ risk queue <strong>${highRisk}</strong> rows จาก Critical + High.</li>
-      </ul>`)}
-      ${reportSection("Step 5 — Report", `<ul class="report-list">
-        <li><strong>Input:</strong> aggregated insights, risks, examples และ recommendation.</li>
-        <li><strong>What happens:</strong> สร้าง executive summary, top issues, sentiment summary, owner distribution, risks, important examples และ next steps.</li>
-        <li><strong>Output:</strong> Insight Report ที่ refresh ตาม dataset ล่าสุด และ export queue ได้จาก table filter.</li>
-      </ul>`)}
-      ${reportSection("Workflow Map", `<div class="flow-chain">
-        <div><strong>Data</strong><span>feedback-data.js / JSON / CSV</span></div>
-        <div><strong>AI</strong><span>classify, score, cluster</span></div>
-        <div><strong>Clean</strong><span>normalize label และ summary</span></div>
-        <div><strong>Insight</strong><span>chart, risk, issue, owner</span></div>
-        <div><strong>Report</strong><span>สรุปผู้บริหารและ action</span></div>
-      </div>`)}
     `;
     return;
   }
 
-  document.getElementById("workflowContent").innerHTML = `
-    ${reportSection("Workflow Explanation", `<p><strong>Data → AI → Clean → Insight → Report</strong> is the actual pipeline used by this website, from raw player feedback to dashboard metrics and executive reporting. The current AI layer is a transparent rule-based heuristic system that can be traced back to keywords, player metadata, and impact scoring.</p>`)}
-    ${reportSection("Step 1 — Data", `<ul class="report-list">
-      <li><strong>Input:</strong> feedback from <strong>feedback-data.js</strong>; if unavailable, the app falls back to <strong>feedback.json</strong> and then <strong>feedback.csv</strong>.</li>
-      <li><strong>What happens:</strong> the app loads <strong>${analytics.total}</strong> rows and keeps useful metadata such as segment, platform, version, source, and game area hint.</li>
-      <li><strong>Output:</strong> raw feedback rows ready for AI classification.</li>
+  document.getElementById("shortReportContent").innerHTML = `
+    <section class="short-hero">
+      <p class="eyebrow">1-3 page readable report</p>
+      <h3>Short Report: Player Feedback Action Brief</h3>
+      <p>A concise action-ready summary of <strong>${analytics.total}</strong> feedback entries, focused on main problems, patterns, top issues, risks, and next steps.</p>
+    </section>
+    <section class="short-grid">
+      <div><strong>${analytics.total}</strong><span>Total feedback</span></div>
+      <div><strong>${percent(negative)}</strong><span>Negative sentiment</span></div>
+      <div><strong>${highRisk}</strong><span>Critical + High</span></div>
+      <div><strong>${escapeHtml(mainIssue[0])}</strong><span>Main issue (${mainIssue[1]} mentions)</span></div>
+    </section>
+    ${reportSection("1. Executive Summary", `<p>Player feedback shows continued engagement, but the strongest friction is concentrated around <strong>${escapeHtml(mainIssue[0])}</strong>. The leading categories are ${topCategories.map(([name]) => name).join(", ")}, with <strong>${highRisk}</strong> high-risk items requiring triage before the next patch.</p>`)}
+    ${reportSection("2. Key Numbers", `<ul class="report-list">
+      <li>Sentiment: Positive <strong>${positive}</strong> (${percent(positive)}), Neutral <strong>${neutral}</strong> (${percent(neutral)}), Negative <strong>${negative}</strong> (${percent(negative)}).</li>
+      <li>Top categories: ${topCategories.map(([name, count]) => `<strong>${escapeHtml(name)}</strong> ${count}`).join(", ")}.</li>
+      <li>Main risk area: <strong>${escapeHtml(mainRisk.category)}</strong> risk score ${mainRisk.score}, Critical ${mainRisk.critical}, High ${mainRisk.high}.</li>
     </ul>`)}
-    ${reportSection("Step 2 — AI", `<ul class="report-list">
-      <li><strong>Input:</strong> player_feedback plus row metadata.</li>
-      <li><strong>What happens:</strong> the app classifies sentiment, category, priority, issue cluster, suggested owner, confidence, and notes using keyword/rule scoring.</li>
-      <li><strong>Output:</strong> <strong>feedback_id, player_feedback, sentiment, category, priority, ai_summary, suggested_owner, confidence, note</strong>.</li>
-      <li><strong>Current coverage:</strong> <strong>${categoryCount}</strong> detected categories and <strong>${ownerCount}</strong> suggested owner teams.</li>
+    ${reportSection("3. Top Issues", list(topIssues.map(([name, count]) => `<strong>${escapeHtml(name)}</strong>: ${count} mentions (${percent(count)}).`)))}
+    ${reportSection("4. Project Workflow Explanation", buildProjectWorkflow("en", analytics.total))}
+    ${reportSection("5. What It Means", list(insights.map((item) => `<strong>${escapeHtml(item.title)}</strong>: ${escapeHtml(item.text)}`)))}
+    ${reportSection("6. Recommended Actions", list(recs.map((item) => `<strong>${escapeHtml(item.title)}</strong>: ${escapeHtml(item.text)}`)))}
+    ${reportSection("7. Owner Focus", list(topOwners.map(([owner, count]) => `<strong>${escapeHtml(owner)}</strong>: ${count} items (${percent(count)}).`)))}
+    ${reportSection("8. Example Feedback To Use", list(important.map((row) => `<strong>${escapeHtml(row.feedback_id)} · ${escapeHtml(row.priority)} · ${escapeHtml(row.category)}</strong><br>${escapeHtml(row.player_feedback)}`)))}
+    ${reportSection("9. Next 7 Days", `<ul class="report-list">
+      <li>Day 1-2: review Critical/High queue and split into bug, design tuning, economy, and communication work.</li>
+      <li>Day 3-5: each owner confirms action, effort, and target patch timing.</li>
+      <li>Day 6-7: communicate top known issues to the community and prepare post-fix comparison metrics.</li>
     </ul>`)}
-    ${reportSection("Step 3 — Clean", `<ul class="report-list">
-      <li><strong>Input:</strong> AI output that may still contain polite lead-ins and sign-offs from raw text.</li>
-      <li><strong>What happens:</strong> common Thai lead-ins and closings are stripped so summaries become shorter and easier to scan.</li>
-      <li><strong>Output:</strong> clean summaries and normalized labels for filtering, sorting, charting, and export.</li>
-    </ul>`)}
-    ${reportSection("Step 4 — Insight", `<ul class="report-list">
-      <li><strong>Input:</strong> clean structured analytics rows.</li>
-      <li><strong>What happens:</strong> rows are aggregated by sentiment, category, priority, owner, issue cluster, and keywords.</li>
-      <li><strong>Output:</strong> the leading recurring issue is <strong>${escapeHtml(topIssue[0])}</strong> (${topIssue[1]} mentions), with <strong>${highRisk}</strong> Critical + High rows forming the risk queue.</li>
-    </ul>`)}
-    ${reportSection("Step 5 — Report", `<ul class="report-list">
-      <li><strong>Input:</strong> aggregated insights, risks, examples, and recommendations.</li>
-      <li><strong>What happens:</strong> the app creates executive summary, top issues, sentiment summary, owner distribution, risks, important examples, and next steps.</li>
-      <li><strong>Output:</strong> a refreshed Insight Report and exportable filtered review queue.</li>
-    </ul>`)}
-    ${reportSection("Workflow Map", `<div class="flow-chain">
-      <div><strong>Data</strong><span>feedback-data.js / JSON / CSV</span></div>
-      <div><strong>AI</strong><span>classify, score, cluster</span></div>
-      <div><strong>Clean</strong><span>normalize labels and summaries</span></div>
-      <div><strong>Insight</strong><span>charts, risks, issues, owners</span></div>
-      <div><strong>Report</strong><span>executive narrative and actions</span></div>
-    </div>`)}
   `;
 }
 
@@ -1186,6 +1182,42 @@ function renderValidation() {
       <li>Add corrected examples to the keyword rules or migrate the prompt templates to a real LLM classifier.</li>
       <li>Track disagreement rate between AI label and human reviewer label over time.</li>
     </ul>`)}
+  `;
+}
+
+function buildProjectWorkflow(lang, totalRows) {
+  if (lang === "th") {
+    return `
+      <p>Workflow นี้อธิบายสิ่งที่ทำในโปรเจคตั้งแต่เริ่มรับโจทย์จนได้เว็บ analytics ที่ใช้งานได้จริง ไม่ใช่แค่ pipeline ของข้อมูล แต่รวมขั้นตอนการออกแบบ วิเคราะห์ ตรวจทาน และปรับปรุงตาม feedback ระหว่างทาง.</p>
+      <div class="project-flow">
+        <div><strong>01 รับโจทย์และกำหนดเป้าหมาย</strong><span>แปลง requirement ให้เป็นเว็บ 3 ส่วนหลัก: ตารางวิเคราะห์, dashboard, และ report สำหรับทีมเกม.</span></div>
+        <div><strong>02 ตรวจไฟล์ข้อมูล</strong><span>สำรวจไฟล์ feedback.json และ feedback.csv, ตรวจ schema, จำนวนข้อมูล ${totalRows} rows, field สำคัญ และภาษา feedback.</span></div>
+        <div><strong>03 สร้าง data processing layer</strong><span>ทำ logic อ่านข้อมูล, fallback เมื่อ fetch ใช้ไม่ได้, และสร้าง feedback-data.js เพื่อเปิด index.html ตรง ๆ ได้.</span></div>
+        <div><strong>04 ออกแบบ AI classification logic</strong><span>สร้าง rule-based AI heuristic สำหรับ sentiment, category, priority, summary, owner, confidence และ note.</span></div>
+        <div><strong>05 สร้าง analytics layer</strong><span>รวมผลเป็น sentiment distribution, category distribution, priority, owner, issue cluster, keyword และ risk area.</span></div>
+        <div><strong>06 สร้าง UI หลัก</strong><span>ทำ dashboard, sortable table, search/filter, pagination, export CSV/Excel และ responsive dark theme.</span></div>
+        <div><strong>07 ทำ report pages</strong><span>สร้าง Insight Report, Short Report และ Human Review ให้ใช้ต่อในการตัดสินใจและตรวจผล AI ได้.</span></div>
+        <div><strong>08 ตรวจทานและแก้ตาม feedback</strong><span>แก้ fetch error, เพิ่มภาษาไทย/อังกฤษ, ปรับ top issues, เรียง table ตาม FB ID, รวม workflow เข้า report และลบส่วนที่ไม่ต้องการ.</span></div>
+        <div><strong>09 Verify ก่อนส่งมอบ</strong><span>ตรวจ syntax ด้วย node --check, รัน verify.js เพื่อยืนยันว่าประมวลผลครบ ${totalRows} rows และผล analytics ยังไม่เสีย.</span></div>
+      </div>
+      <p><strong>ผลลัพธ์สุดท้าย:</strong> ได้เว็บ feedback analytics ที่เปิดจากไฟล์ได้, วิเคราะห์ข้อมูลอัตโนมัติ, มีรายงานสั้นสำหรับนำไปใช้ต่อ และมี note สำหรับ human review ว่า AI อาจผิดตรงไหน.</p>
+    `;
+  }
+
+  return `
+    <p>This workflow explains what was done across the project from the initial request to the working analytics website. It covers product interpretation, data inspection, AI logic, UI buildout, review, and verification.</p>
+    <div class="project-flow">
+      <div><strong>01 Clarify The Goal</strong><span>Converted the request into a working game feedback analytics website with table, dashboard, and report surfaces.</span></div>
+      <div><strong>02 Inspect Source Data</strong><span>Reviewed feedback.json and feedback.csv, checked schema, confirmed ${totalRows} rows, and identified useful metadata fields.</span></div>
+      <div><strong>03 Build Data Processing</strong><span>Implemented data loading, JSON/CSV fallback, and embedded feedback-data.js so index.html can work without a local server.</span></div>
+      <div><strong>04 Design AI Classification</strong><span>Built rule-based AI heuristics for sentiment, category, priority, summary, owner, confidence, and analyst notes.</span></div>
+      <div><strong>05 Generate Analytics</strong><span>Aggregated sentiment, categories, priorities, owners, issue clusters, keywords, and risk areas from the structured rows.</span></div>
+      <div><strong>06 Build The Interface</strong><span>Created the dashboard, sortable table, search/filter controls, pagination, CSV/Excel exports, and responsive dark theme.</span></div>
+      <div><strong>07 Add Report Surfaces</strong><span>Added Insight Report, Short Report, and Human Review notes so the output can be read and used by studio teams.</span></div>
+      <div><strong>08 Iterate From Feedback</strong><span>Fixed file-open fetch behavior, added Thai/English switching, improved top issues, sorted by FB ID, merged workflow into the report, and removed unwanted sections.</span></div>
+      <div><strong>09 Verify Before Handoff</strong><span>Ran node --check and verify.js to confirm the app still processes all ${totalRows} rows and analytics remain valid.</span></div>
+    </div>
+    <p><strong>Final output:</strong> a file-openable feedback analytics website with automated analysis, concise reporting, and human review notes that identify where AI may need correction.</p>
   `;
 }
 
