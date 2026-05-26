@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Player Feedback Intelligence</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">FI</div>
+          <div>
+            <p>Game Studio BI</p>
+            <h1>Feedback Intelligence</h1>
+          </div>
+        </div>
+        <nav class="tabs" aria-label="Main views">
+          <button class="tab active" data-tab="dashboard">Dashboard</button>
+          <button class="tab" data-tab="analysis">Analysis Table</button>
+          <button class="tab" data-tab="report">Insight Report</button>
+          <button class="tab" data-tab="workflow">AI Workflow</button>
+          <button class="tab" data-tab="validation">Human Review</button>
+        </nav>
+        <div class="sidebar-card">
+          <span>Auto Analysis</span>
+          <strong id="analysisStatus">Loading data...</strong>
+          <small id="refreshStamp">Waiting for dataset</small>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">AI-powered player voice analytics</p>
+            <h2 id="pageTitle">Analytics Dashboard</h2>
+          </div>
+          <div class="top-actions">
+            <button id="refreshBtn" class="ghost-btn" type="button">Refresh</button>
+            <button id="langToggleBtn" class="ghost-btn" type="button">ไทย</button>
+            <button id="exportCsvBtn" class="primary-btn" type="button">Export CSV</button>
+            <button id="exportXlsBtn" class="primary-btn alt" type="button">Export Excel</button>
+          </div>
+        </header>
+
+        <section id="dashboard" class="view active-view">
+          <div class="kpi-grid" id="kpiGrid"></div>
+          <div class="dashboard-grid">
+            <article class="panel wide">
+              <div class="panel-heading">
+                <h3>Sentiment Distribution</h3>
+                <span id="sentimentTotal"></span>
+              </div>
+              <div class="chart-row">
+                <canvas id="sentimentChart" width="320" height="260"></canvas>
+                <div id="sentimentLegend" class="legend"></div>
+              </div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Priority Distribution</h3>
+              </div>
+              <canvas id="priorityChart" width="360" height="260"></canvas>
+            </article>
+            <article class="panel wide">
+              <div class="panel-heading">
+                <h3>Category Distribution</h3>
+              </div>
+              <div id="categoryBars" class="bar-list"></div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Team Ownership</h3>
+              </div>
+              <div id="ownerBars" class="bar-list compact"></div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Top Mentioned Issues</h3>
+              </div>
+              <div id="topIssues" class="issue-list"></div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Common Complaints</h3>
+              </div>
+              <div id="complaints" class="issue-list"></div>
+            </article>
+            <article class="panel wide">
+              <div class="panel-heading">
+                <h3>Keyword Analysis</h3>
+              </div>
+              <div id="wordCloud" class="word-cloud"></div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Critical Risk Areas</h3>
+              </div>
+              <div id="riskAreas" class="risk-list"></div>
+            </article>
+            <article class="panel wide">
+              <div class="panel-heading">
+                <h3>AI Generated Key Insights</h3>
+              </div>
+              <div id="keyInsights" class="insight-grid"></div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Most Important Feedback</h3>
+              </div>
+              <div id="importantFeedback" class="quote-list"></div>
+            </article>
+            <article class="panel wide">
+              <div class="panel-heading">
+                <h3>Recommendation Highlights</h3>
+              </div>
+              <div id="recommendations" class="recommendations"></div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Impact Heatmap</h3>
+              </div>
+              <div id="heatmap" class="heatmap"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="analysis" class="view">
+          <div class="table-toolbar">
+            <input id="searchInput" type="search" placeholder="Search feedback, summary, owner..." />
+            <select id="sentimentFilter" aria-label="Filter by sentiment"></select>
+            <select id="categoryFilter" aria-label="Filter by category"></select>
+            <select id="priorityFilter" aria-label="Filter by priority"></select>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr id="tableHead"></tr>
+              </thead>
+              <tbody id="tableBody"></tbody>
+            </table>
+          </div>
+          <div class="pagination">
+            <span id="tableInfo"></span>
+            <div>
+              <button id="prevPage" class="ghost-btn" type="button">Previous</button>
+              <button id="nextPage" class="ghost-btn" type="button">Next</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="report" class="view">
+          <article class="report-panel" id="reportContent"></article>
+        </section>
+
+        <section id="workflow" class="view">
+          <article class="report-panel" id="workflowContent"></article>
+        </section>
+
+        <section id="validation" class="view">
+          <article class="report-panel" id="validationContent"></article>
+        </section>
+      </main>
+    </div>
+
+    <script src="feedback-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

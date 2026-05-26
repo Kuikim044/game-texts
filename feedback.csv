@@ -1,0 +1,301 @@
+feedback_id,date,source,player_id,player_segment,platform,game_version,game_area_hint,player_feedback
+FB-001,2026-05-04 21:47,Discord,P40495,Guild Leader,PC Emulator,v1.8.0,Inventory,เปิดกาชาไปหลายสิบโรลแล้วยังไม่ได้ตัว rate up รู้สึกท้อมาก
+FB-002,2026-05-23 17:26,App Store Review,P30926,Mid Spender,Android,v1.8.0,,อยากฝากทีมงานว่า Event รอบนี้ธีมน่ารักดี แต่ภารกิจซ้ำเยอะไปหน่อย ขอบคุณครับ/ค่ะ
+FB-003,2026-05-13 03:22,Customer Support,P80284,Mid Spender,PC Emulator,v1.8.0,,บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์
+FB-004,2026-05-12 18:12,Discord,P40512,Light Spender,iOS,v1.9.0,,อยากฝากทีมงานว่า ชอบตัวละครใหม่มาก ดีไซน์ดีและสกิลสนุก เพราะกระทบการเล่นพอสมควร
+FB-005,2026-05-06 11:22,App Store Review,P80010,Mid Spender,PC Emulator,v1.8.0,Guild,อยากฝากทีมงานว่า อยากให้มีระบบ replay ดูการต่อสู้ย้อนหลัง รบกวนช่วยดูให้หน่อย
+FB-006,2026-05-08 21:20,Google Form,P37653,New Player,iOS,v1.9.0,Event Shop,อยากฝากทีมงานว่า เควสต์รายสัปดาห์ให้แต้มไม่พอแลกของหลัก เพราะกระทบการเล่นพอสมควร
+FB-007,2026-05-21 14:09,Play Store Review,P66155,Light Spender,iOS,v1.9.0,,ส่วนตัวคิดว่า อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก ถ้าแก้ได้จะดีมาก
+FB-008,2026-05-02 03:09,Facebook Comment,P71348,Guild Leader,PC Emulator,v1.8.0,Mail Box,ส่วนตัวคิดว่า ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง
+FB-009,2026-05-21 10:07,Play Store Review,P75612,F2P,Android,v1.9.1,Raid Boss,เจอบ่อยมากว่า อัปเดตรอบนี้ภาพสวยขึ้นมาก โดยเฉพาะฉากต่อสู้ใหม่ รบกวนช่วยดูให้หน่อย
+FB-010,2026-05-07 04:23,Facebook Comment,P57576,New Player,PC Emulator,v1.9.0,Event Shop,เจอบ่อยมากว่า ตัวหนังสือในหน้ารายละเอียดสกิลเล็ก อ่านยากบนมือถือ เพราะกระทบการเล่นพอสมควร
+FB-011,2026-05-03 02:46,Community Post,P31643,F2P,iOS,v1.8.1,Character Upgrade,แจ้งเตือนสีแดงเยอะเกินไป ไม่รู้ว่าอะไรสำคัญจริง เพราะกระทบการเล่นพอสมควร
+FB-012,2026-05-07 22:19,In-game Survey,P69177,Whale,PC Emulator,v1.9.1,,อยากฝากทีมงานว่า อยากให้มีระบบ replay ดูการต่อสู้ย้อนหลัง ขอบคุณครับ/ค่ะ
+FB-013,2026-05-19 07:00,Discord,P53309,New Player,PC Emulator,v1.8.1,Arena,เจอบ่อยมากว่า ราคา item ใน event shop สูงไปสำหรับผู้เล่นใหม่
+FB-014,2026-05-19 18:30,App Store Review,P56438,Guild Leader,Android,v1.8.1,Daily Mission,ถ้าไม่เติมเงินแทบตามคนอื่นไม่ทัน เพราะทรัพยากรแจกน้อย ขอบคุณครับ/ค่ะ
+FB-015,2026-05-11 03:15,App Store Review,P70637,Casual Player,iOS,v1.8.1,Raid Boss,ส่วนตัวคิดว่า Event รอบนี้ธีมน่ารักดี แต่ภารกิจซ้ำเยอะไปหน่อย ขอบคุณครับ/ค่ะ
+FB-016,2026-05-18 00:05,App Store Review,P17685,Guild Leader,iOS,v1.9.1,Daily Mission,UI ใหม่ดูสะอาดขึ้น เข้าใจง่ายกว่าเดิม ขอบคุณครับ/ค่ะ
+FB-017,2026-05-14 22:46,Community Post,P85914,Light Spender,iOS,v1.9.0,Arena,ส่วนตัวคิดว่า ของรางวัลรายวันน้อยไปเมื่อเทียบกับเวลาที่ต้องเล่น รบกวนช่วยดูให้หน่อย
+FB-018,2026-05-17 16:10,Google Form,P98501,Returning Player,PC Emulator,v1.8.1,Event Shop,เจอบ่อยมากว่า โหลดแพตช์ช้ามาก ทั้งที่เน็ตปกติ ใช้เวลานานกว่าทุกอัปเดตที่ผ่านมา ถ้าแก้ได้จะดีมาก
+FB-019,2026-05-03 13:42,Customer Support,P27154,Light Spender,Android,v1.9.0,Daily Mission,ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง เพราะกระทบการเล่นพอสมควร
+FB-020,2026-05-19 03:04,App Store Review,P19016,Mid Spender,PC Emulator,v1.8.1,,ส่วนตัวคิดว่า ราคา item ใน event shop สูงไปสำหรับผู้เล่นใหม่ เพราะกระทบการเล่นพอสมควร
+FB-021,2026-05-20 20:33,Google Form,P27601,Mid Spender,PC Emulator,v1.8.0,,อยากฝากทีมงานว่า บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์ รบกวนช่วยดูให้หน่อย
+FB-022,2026-05-23 10:13,Play Store Review,P16658,Casual Player,PC Emulator,v1.9.0,,เจอบ่อยมากว่า อยากให้มีระบบ guild boss ที่ทุกคนช่วยกันตี
+FB-023,2026-05-21 08:10,Community Post,P81511,Guild Leader,PC Emulator,v1.8.0,Guild,บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก
+FB-024,2026-05-12 01:57,Customer Support,P63264,Light Spender,iOS,v1.8.0,Character Upgrade,บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์ รบกวนช่วยดูให้หน่อย
+FB-025,2026-05-06 23:59,Customer Support,P60140,Light Spender,Android,v1.9.0,Event Shop,ส่วนตัวคิดว่า หน้า inventory กรองของได้ไม่ละเอียด หา item ที่ต้องใช้ยาก
+FB-026,2026-05-08 07:01,App Store Review,P46585,Whale,Android,v1.9.0,,ช่วยเพิ่มภาษาไทยในเสียงพากย์หรืออย่างน้อย subtitle ให้ครบ รบกวนช่วยดูให้หน่อย
+FB-027,2026-05-19 08:02,Discord,P51114,Guild Leader,PC Emulator,v1.9.0,,อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก
+FB-028,2026-05-02 22:27,Google Form,P91678,Light Spender,PC Emulator,v1.9.0,Story Chapter,ล็อกอินด้วย Facebook ไม่ได้ตั้งแต่เมื่อวาน รบกวนช่วยดูให้หน่อย
+FB-029,2026-05-11 12:44,Play Store Review,P98777,F2P,PC Emulator,v1.8.1,Daily Mission,อยากฝากทีมงานว่า อยากได้ skin ฟรีจาก event มากขึ้น ไม่ใช่มีแต่ขายใน shop ถ้าแก้ได้จะดีมาก
+FB-030,2026-05-10 06:27,Customer Support,P72021,Casual Player,Android,v1.9.1,Character Upgrade,ของที่ต้องใช้ปลุกพลังหายากเกินไป ฟาร์มทั้งวันยังไม่พอ รบกวนช่วยดูให้หน่อย
+FB-031,2026-05-21 19:21,Discord,P29313,Mid Spender,iOS,v1.8.1,,เจอบ่อยมากว่า Event รอบนี้ทำให้กลับมาเล่นทุกวันอีกครั้ง ขอบคุณครับ/ค่ะ
+FB-032,2026-05-14 20:36,App Store Review,P95990,Guild Leader,PC Emulator,v1.9.1,Guild,เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา ถ้าแก้ได้จะดีมาก
+FB-033,2026-05-17 14:03,App Store Review,P97500,Casual Player,iOS,v1.8.1,,ขอตัวละครสายซัพพอร์ตใหม่ ๆ บ้าง ตอนนี้มีแต่ดาเมจ ขอบคุณครับ/ค่ะ
+FB-034,2026-05-14 17:28,Facebook Comment,P93579,Casual Player,PC Emulator,v1.9.1,Inventory,อยากฝากทีมงานว่า อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก เพราะกระทบการเล่นพอสมควร
+FB-035,2026-05-23 09:15,Play Store Review,P60205,Whale,Android,v1.8.0,Inventory,ส่วนตัวคิดว่า Tutorial ช่วงแรกเร็วไป อธิบายระบบเยอะจนจำไม่ทัน
+FB-036,2026-05-15 13:03,App Store Review,P85456,Guild Leader,Android,v1.8.0,,อยากให้ pity ชัดเจนกว่านี้ ตอนนี้อ่านเงื่อนไขแล้วงง เพราะกระทบการเล่นพอสมควร
+FB-037,2026-05-18 23:47,App Store Review,P60968,Light Spender,Android,v1.9.0,Arena,ส่วนตัวคิดว่า ด่าน Story Chapter ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน ถ้าแก้ได้จะดีมาก
+FB-038,2026-05-18 00:58,In-game Survey,P70515,New Player,PC Emulator,v1.8.0,Guild,โปรโมชันรายเดือนคุ้มดี แต่หน้า shop อธิบายสิทธิ์ไม่ชัด เพราะกระทบการเล่นพอสมควร
+FB-039,2026-05-11 10:48,In-game Survey,P71644,Guild Leader,Android,v1.9.0,,ของที่ต้องใช้ปลุกพลังหายากเกินไป ฟาร์มทั้งวันยังไม่พอ ถ้าแก้ได้จะดีมาก
+FB-040,2026-05-02 00:15,App Store Review,P83920,F2P,iOS,v1.8.1,Event Shop,อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก ขอบคุณครับ/ค่ะ
+FB-041,2026-05-23 03:49,Facebook Comment,P85470,Returning Player,Android,v1.8.0,,เจอบ่อยมากว่า ชอบ mini game ใน event นี้ เล่นง่ายและไม่เครียด เพราะกระทบการเล่นพอสมควร
+FB-042,2026-05-21 07:06,Play Store Review,P96706,Returning Player,PC Emulator,v1.8.0,Daily Mission,เจอบ่อยมากว่า ของแจกครบรอบดีเกินคาด รู้สึกว่าเกมใส่ใจผู้เล่น ขอบคุณครับ/ค่ะ
+FB-043,2026-05-14 11:40,Community Post,P95256,F2P,PC Emulator,v1.9.1,Character Upgrade,ส่วนตัวคิดว่า พลังที่แนะนำในด่านไม่ตรงกับความยากจริง
+FB-044,2026-05-09 10:54,App Store Review,P84691,Mid Spender,iOS,v1.9.1,Gacha Banner,อยากฝากทีมงานว่า Tutorial ช่วงแรกเร็วไป อธิบายระบบเยอะจนจำไม่ทัน เพราะกระทบการเล่นพอสมควร
+FB-045,2026-05-07 11:51,Play Store Review,P35042,Mid Spender,Android,v1.9.0,Character Upgrade,ด่าน Gacha Banner ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน ถ้าแก้ได้จะดีมาก
+FB-046,2026-05-21 22:31,Community Post,P50135,Returning Player,iOS,v1.9.0,Inventory,อยากฝากทีมงานว่า Tutorial ช่วงแรกเร็วไป อธิบายระบบเยอะจนจำไม่ทัน ถ้าแก้ได้จะดีมาก
+FB-047,2026-05-12 22:29,Play Store Review,P51359,Mid Spender,Android,v1.8.1,Inventory,เจอบ่อยมากว่า พลังที่แนะนำในด่านไม่ตรงกับความยากจริง รบกวนช่วยดูให้หน่อย
+FB-048,2026-05-09 23:37,Play Store Review,P49618,Light Spender,iOS,v1.9.0,Guild,อยากฝากทีมงานว่า เนื้อเรื่อง event สนุก แต่อยากให้มีเสียงพากย์เพิ่ม ถ้าแก้ได้จะดีมาก
+FB-049,2026-05-23 04:40,Community Post,P54657,New Player,iOS,v1.9.0,Gacha Banner,เจอบ่อยมากว่า ชอบ mini game ใน event นี้ เล่นง่ายและไม่เครียด รบกวนช่วยดูให้หน่อย
+FB-050,2026-05-03 18:40,Google Form,P25525,F2P,iOS,v1.9.0,Inventory,ส่วนตัวคิดว่า ระบบแจ้งเตือนเควสต์ขึ้นซ้ำ ๆ ทั้งที่เคลียร์ไปแล้ว ถ้าแก้ได้จะดีมาก
+FB-051,2026-05-10 18:27,Play Store Review,P37235,New Player,PC Emulator,v1.8.0,,ส่วนตัวคิดว่า ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง ถ้าแก้ได้จะดีมาก
+FB-052,2026-05-03 05:00,In-game Survey,P47056,Casual Player,Android,v1.9.0,Raid Boss,กิจกรรมนี้ใช้ stamina เยอะ แต่ของแลกในร้านไม่ค่อยคุ้ม เพราะกระทบการเล่นพอสมควร
+FB-053,2026-05-07 13:07,App Store Review,P19359,F2P,PC Emulator,v1.9.0,,เจอบ่อยมากว่า ภารกิจ event บังคับเล่นหลายรอบจนรู้สึก grind มาก ขอบคุณครับ/ค่ะ
+FB-054,2026-05-10 22:25,Play Store Review,P66626,Casual Player,PC Emulator,v1.9.1,Arena,ส่วนตัวคิดว่า แจ้งเตือนสีแดงเยอะเกินไป ไม่รู้ว่าอะไรสำคัญจริง ขอบคุณครับ/ค่ะ
+FB-055,2026-05-19 00:48,Play Store Review,P46458,New Player,PC Emulator,v1.8.1,Gacha Banner,อยากฝากทีมงานว่า เปิดกาชาไปหลายสิบโรลแล้วยังไม่ได้ตัว rate up รู้สึกท้อมาก เพราะกระทบการเล่นพอสมควร
+FB-056,2026-05-14 10:20,Discord,P96846,Whale,iOS,v1.9.1,Raid Boss,ส่วนตัวคิดว่า เควสต์รายสัปดาห์ให้แต้มไม่พอแลกของหลัก รบกวนช่วยดูให้หน่อย
+FB-057,2026-05-11 03:49,In-game Survey,P77952,New Player,PC Emulator,v1.9.1,Inventory,เมนู Gacha Banner หาเจอยาก ต้องกดหลายขั้นตอนเกินไป รบกวนช่วยดูให้หน่อย
+FB-058,2026-05-05 09:28,Community Post,P50730,New Player,iOS,v1.8.1,,Tutorial ช่วงแรกเร็วไป อธิบายระบบเยอะจนจำไม่ทัน เพราะกระทบการเล่นพอสมควร
+FB-059,2026-05-21 04:31,Play Store Review,P71894,Mid Spender,PC Emulator,v1.9.1,,ส่วนตัวคิดว่า เวลาจัด event สั้นเกินไป คนทำงานตามเก็บของไม่ทัน
+FB-060,2026-05-05 02:17,In-game Survey,P86931,Mid Spender,Android,v1.8.0,Raid Boss,เจอบ่อยมากว่า อยากให้มีปฏิทิน event ล่วงหน้า จะได้วางแผนใช้ทรัพยากร ขอบคุณครับ/ค่ะ
+FB-061,2026-05-11 17:48,In-game Survey,P41300,Whale,Android,v1.8.1,,ส่วนตัวคิดว่า แพ็กเกจเติมเงินราคาสูงไปเมื่อเทียบกับจำนวนเพชรที่ได้ รบกวนช่วยดูให้หน่อย
+FB-062,2026-05-16 22:58,In-game Survey,P26547,F2P,Android,v1.9.1,,ภารกิจ event บังคับเล่นหลายรอบจนรู้สึก grind มาก ขอบคุณครับ/ค่ะ
+FB-063,2026-05-01 23:09,In-game Survey,P54375,F2P,PC Emulator,v1.8.0,Raid Boss,เจอบ่อยมากว่า อยากให้ pity ชัดเจนกว่านี้ ตอนนี้อ่านเงื่อนไขแล้วงง ถ้าแก้ได้จะดีมาก
+FB-064,2026-05-13 10:40,Community Post,P39817,New Player,PC Emulator,v1.8.0,Raid Boss,อยากฝากทีมงานว่า โปรโมชันรายเดือนคุ้มดี แต่หน้า shop อธิบายสิทธิ์ไม่ชัด เพราะกระทบการเล่นพอสมควร
+FB-065,2026-05-15 05:44,Play Store Review,P48452,New Player,iOS,v1.9.0,,อยากฝากทีมงานว่า ปุ่มย้อนกลับบางหน้าพาออกไปหน้าแรกเลย ทำให้เสียเวลา
+FB-066,2026-05-06 05:11,Discord,P28758,Guild Leader,PC Emulator,v1.8.1,Mail Box,เจอบ่อยมากว่า ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง ขอบคุณครับ/ค่ะ
+FB-067,2026-05-10 21:34,Facebook Comment,P49210,Casual Player,iOS,v1.9.0,,รู้สึกว่าเกมเริ่ม pay to win มากขึ้นหลังอัปเดตนี้ ถ้าแก้ได้จะดีมาก
+FB-068,2026-05-13 15:06,App Store Review,P48696,Whale,Android,v1.9.0,,โปรโมชันรายเดือนคุ้มดี แต่หน้า shop อธิบายสิทธิ์ไม่ชัด
+FB-069,2026-05-02 19:47,Community Post,P91381,Light Spender,Android,v1.9.0,Inventory,เจอบ่อยมากว่า เกมแลคมากในด่านบอสใหม่ เฟรมตกจนกดหลบไม่ทัน ขอบคุณครับ/ค่ะ
+FB-070,2026-05-10 14:02,Customer Support,P52823,F2P,PC Emulator,v1.8.0,,อยากฝากทีมงานว่า อยากให้มีปุ่ม claim all สำหรับของรางวัลหลายรายการ
+FB-071,2026-05-09 05:16,Community Post,P28449,Whale,Android,v1.8.0,Event Shop,เจอบ่อยมากว่า ทองในเกมขาดตลอด อัปเกรดตัวละครแทบไม่พอ เพราะกระทบการเล่นพอสมควร
+FB-072,2026-05-01 08:34,Discord,P24201,Whale,Android,v1.9.0,Story Chapter,เควสต์รายสัปดาห์ให้แต้มไม่พอแลกของหลัก ถ้าแก้ได้จะดีมาก
+FB-073,2026-05-21 14:58,Play Store Review,P49893,Guild Leader,PC Emulator,v1.8.0,Arena,อยากฝากทีมงานว่า อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก
+FB-074,2026-05-12 21:47,In-game Survey,P90694,F2P,PC Emulator,v1.9.1,Gacha Banner,ส่วนตัวคิดว่า เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา ถ้าแก้ได้จะดีมาก
+FB-075,2026-05-08 11:06,Customer Support,P26011,Whale,PC Emulator,v1.8.0,Inventory,ส่วนตัวคิดว่า อัปเดตรอบนี้ภาพสวยขึ้นมาก โดยเฉพาะฉากต่อสู้ใหม่ ถ้าแก้ได้จะดีมาก
+FB-076,2026-05-21 19:01,Google Form,P36896,Light Spender,Android,v1.8.1,,UI ใหม่ดูสะอาดขึ้น เข้าใจง่ายกว่าเดิม ขอบคุณครับ/ค่ะ
+FB-077,2026-05-05 19:00,Play Store Review,P24408,F2P,iOS,v1.9.0,,เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา รบกวนช่วยดูให้หน่อย
+FB-078,2026-05-01 05:16,Google Form,P72422,Guild Leader,iOS,v1.8.0,,เจอบ่อยมากว่า หลังอัปเดตล่าสุดเกมค้างตอนเข้าหน้า Story Chapter ต้องปิดเปิดใหม่หลายรอบ รบกวนช่วยดูให้หน่อย
+FB-079,2026-05-02 23:50,Play Store Review,P62640,New Player,Android,v1.8.0,,ตัวละคร Kai แรงเกินไป เจอใน arena แล้วแทบไม่มีทางสู้ เพราะกระทบการเล่นพอสมควร
+FB-080,2026-05-05 02:08,Play Store Review,P79541,Whale,PC Emulator,v1.9.1,,ระบบแจ้งเตือนเควสต์ขึ้นซ้ำ ๆ ทั้งที่เคลียร์ไปแล้ว เพราะกระทบการเล่นพอสมควร
+FB-081,2026-05-21 17:46,App Store Review,P62262,Casual Player,Android,v1.8.1,Gacha Banner,อยากให้มีปฏิทิน event ล่วงหน้า จะได้วางแผนใช้ทรัพยากร ขอบคุณครับ/ค่ะ
+FB-082,2026-05-05 21:59,Community Post,P58843,Returning Player,iOS,v1.8.0,Event Shop,เกมแลคมากในด่านบอสใหม่ เฟรมตกจนกดหลบไม่ทัน รบกวนช่วยดูให้หน่อย
+FB-083,2026-05-14 23:03,Play Store Review,P37884,Mid Spender,PC Emulator,v1.9.0,Character Upgrade,อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก ขอบคุณครับ/ค่ะ
+FB-084,2026-05-09 18:14,In-game Survey,P50499,New Player,PC Emulator,v1.9.0,Raid Boss,เวลาจัด event สั้นเกินไป คนทำงานตามเก็บของไม่ทัน
+FB-085,2026-05-03 04:47,Google Form,P30631,Light Spender,iOS,v1.9.1,Story Chapter,อยากฝากทีมงานว่า บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์ ถ้าแก้ได้จะดีมาก
+FB-086,2026-05-02 21:05,Play Store Review,P45804,Guild Leader,Android,v1.9.1,Daily Mission,ตัวหนังสือในหน้ารายละเอียดสกิลเล็ก อ่านยากบนมือถือ เพราะกระทบการเล่นพอสมควร
+FB-087,2026-05-22 18:31,Play Store Review,P17180,Light Spender,iOS,v1.9.1,,อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก ขอบคุณครับ/ค่ะ
+FB-088,2026-05-04 00:31,In-game Survey,P75570,F2P,iOS,v1.9.1,Inventory,ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง รบกวนช่วยดูให้หน่อย
+FB-089,2026-05-14 00:29,Discord,P64747,Guild Leader,Android,v1.9.1,,อยากฝากทีมงานว่า ได้ตัวซ้ำบ่อยมาก แต่ระบบแลกชิ้นส่วนยังไม่ค่อยคุ้ม
+FB-090,2026-05-15 22:58,Customer Support,P62487,Guild Leader,iOS,v1.8.0,Mail Box,เควสต์รายสัปดาห์ให้แต้มไม่พอแลกของหลัก เพราะกระทบการเล่นพอสมควร
+FB-091,2026-05-03 16:40,Discord,P40968,Light Spender,PC Emulator,v1.9.0,Guild,บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก
+FB-092,2026-05-06 20:31,Community Post,P92210,Casual Player,PC Emulator,v1.9.0,,อยากฝากทีมงานว่า ทองในเกมขาดตลอด อัปเกรดตัวละครแทบไม่พอ
+FB-093,2026-05-19 01:22,Discord,P47627,Casual Player,Android,v1.9.1,Story Chapter,อยากให้ปรับ balance ของอาวุธบางชิ้น เพราะแรงต่างกันเกิน รบกวนช่วยดูให้หน่อย
+FB-094,2026-05-15 18:35,Google Form,P29773,Light Spender,Android,v1.9.0,Character Upgrade,เจอบ่อยมากว่า ขอตัวละครสายซัพพอร์ตใหม่ ๆ บ้าง ตอนนี้มีแต่ดาเมจ ถ้าแก้ได้จะดีมาก
+FB-095,2026-05-02 07:45,Community Post,P60779,F2P,Android,v1.9.0,Raid Boss,อยากฝากทีมงานว่า อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก
+FB-096,2026-05-18 21:24,Play Store Review,P55851,F2P,Android,v1.9.0,Guild,ด่าน Story Chapter ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน
+FB-097,2026-05-10 17:24,Customer Support,P57526,Returning Player,iOS,v1.9.1,Arena,อยากฝากทีมงานว่า โปรโมชันรายเดือนคุ้มดี แต่หน้า shop อธิบายสิทธิ์ไม่ชัด
+FB-098,2026-05-05 04:04,Play Store Review,P91006,New Player,iOS,v1.9.0,,ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง
+FB-099,2026-05-15 01:26,Customer Support,P40671,Light Spender,PC Emulator,v1.9.1,Gacha Banner,เจอบ่อยมากว่า บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์
+FB-100,2026-05-15 14:49,Play Store Review,P89254,Guild Leader,Android,v1.8.1,,อยากฝากทีมงานว่า อยากให้ปรับ balance ของอาวุธบางชิ้น เพราะแรงต่างกันเกิน เพราะกระทบการเล่นพอสมควร
+FB-101,2026-05-17 03:18,Discord,P29313,Mid Spender,iOS,v1.9.1,,ถ้าไม่เติมเงินแทบตามคนอื่นไม่ทัน เพราะทรัพยากรแจกน้อย ขอบคุณครับ/ค่ะ
+FB-102,2026-05-02 12:32,Customer Support,P51770,Guild Leader,iOS,v1.8.0,Arena,เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา ถ้าแก้ได้จะดีมาก
+FB-103,2026-05-16 22:53,Facebook Comment,P12490,Casual Player,PC Emulator,v1.9.1,Event Shop,ตอนจัดทีมอยากเห็น stat เปรียบเทียบก่อนและหลังเปลี่ยนอุปกรณ์ รบกวนช่วยดูให้หน่อย
+FB-104,2026-05-04 01:15,In-game Survey,P88215,Casual Player,PC Emulator,v1.8.0,Gacha Banner,ปุ่มย้อนกลับบางหน้าพาออกไปหน้าแรกเลย ทำให้เสียเวลา รบกวนช่วยดูให้หน่อย
+FB-105,2026-05-20 11:15,In-game Survey,P81313,Returning Player,iOS,v1.9.0,Character Upgrade,ส่วนตัวคิดว่า Banner ใหม่ออกถี่เกินไป เก็บเพชรไม่ทันเลย
+FB-106,2026-05-13 11:16,Google Form,P86271,Returning Player,Android,v1.9.0,Event Shop,Event รอบนี้ธีมน่ารักดี แต่ภารกิจซ้ำเยอะไปหน่อย ขอบคุณครับ/ค่ะ
+FB-107,2026-05-06 21:29,Community Post,P14847,F2P,PC Emulator,v1.8.1,Gacha Banner,ด่าน Story Chapter ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน ขอบคุณครับ/ค่ะ
+FB-108,2026-05-13 17:30,Play Store Review,P95948,Light Spender,iOS,v1.9.0,Arena,เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา เพราะกระทบการเล่นพอสมควร
+FB-109,2026-05-13 10:11,Community Post,P78062,Casual Player,PC Emulator,v1.9.0,,อยากฝากทีมงานว่า โหลดแพตช์ช้ามาก ทั้งที่เน็ตปกติ ใช้เวลานานกว่าทุกอัปเดตที่ผ่านมา ถ้าแก้ได้จะดีมาก
+FB-110,2026-05-18 09:20,Discord,P65851,Whale,iOS,v1.9.0,Mail Box,เจอบ่อยมากว่า เกมแลคมากในด่านบอสใหม่ เฟรมตกจนกดหลบไม่ทัน
+FB-111,2026-05-14 08:40,Google Form,P14081,Guild Leader,iOS,v1.9.0,Guild,อยากให้ปรับ balance ของอาวุธบางชิ้น เพราะแรงต่างกันเกิน เพราะกระทบการเล่นพอสมควร
+FB-112,2026-05-21 11:23,In-game Survey,P58760,New Player,PC Emulator,v1.8.1,Story Chapter,รู้สึกว่าเกมเริ่ม pay to win มากขึ้นหลังอัปเดตนี้
+FB-113,2026-05-13 10:41,Play Store Review,P75410,Returning Player,iOS,v1.8.0,,เจอบ่อยมากว่า ตัวละคร Rex แรงเกินไป เจอใน arena แล้วแทบไม่มีทางสู้ รบกวนช่วยดูให้หน่อย
+FB-114,2026-05-07 19:18,Community Post,P69250,Returning Player,iOS,v1.8.1,,อยากฝากทีมงานว่า ขอตัวละครสายซัพพอร์ตใหม่ ๆ บ้าง ตอนนี้มีแต่ดาเมจ ถ้าแก้ได้จะดีมาก
+FB-115,2026-05-03 17:34,Play Store Review,P76683,F2P,Android,v1.8.1,,อยากให้ pity ชัดเจนกว่านี้ ตอนนี้อ่านเงื่อนไขแล้วงง ขอบคุณครับ/ค่ะ
+FB-116,2026-05-12 17:36,Customer Support,P72739,F2P,Android,v1.8.0,Daily Mission,ส่วนตัวคิดว่า รางวัล login รอบนี้ดูธรรมดามาก อยากให้มีเพชรหรือ ticket เพิ่ม
+FB-117,2026-05-15 14:43,Customer Support,P26274,F2P,iOS,v1.8.1,Arena,อยากฝากทีมงานว่า ตัวหนังสือในหน้ารายละเอียดสกิลเล็ก อ่านยากบนมือถือ
+FB-118,2026-05-17 09:54,Discord,P90534,Light Spender,Android,v1.9.0,Raid Boss,บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์ รบกวนช่วยดูให้หน่อย
+FB-119,2026-05-22 19:46,Customer Support,P44688,New Player,PC Emulator,v1.8.0,Mail Box,เนื้อเรื่อง event สนุก แต่อยากให้มีเสียงพากย์เพิ่ม
+FB-120,2026-05-21 17:18,Play Store Review,P17852,Light Spender,Android,v1.9.1,Event Shop,ปุ่มย้อนกลับบางหน้าพาออกไปหน้าแรกเลย ทำให้เสียเวลา ถ้าแก้ได้จะดีมาก
+FB-121,2026-05-11 22:20,Customer Support,P51827,F2P,Android,v1.9.0,Event Shop,เจอบ่อยมากว่า อยากให้ปรับ balance ของอาวุธบางชิ้น เพราะแรงต่างกันเกิน
+FB-122,2026-05-10 12:55,In-game Survey,P50988,F2P,iOS,v1.9.0,,ระบบแจ้งเตือนเควสต์ขึ้นซ้ำ ๆ ทั้งที่เคลียร์ไปแล้ว
+FB-123,2026-05-03 12:32,Community Post,P74866,Light Spender,iOS,v1.9.0,Raid Boss,ส่วนตัวคิดว่า ระบบแจ้งเตือนเควสต์ขึ้นซ้ำ ๆ ทั้งที่เคลียร์ไปแล้ว
+FB-124,2026-05-14 04:56,Play Store Review,P16705,Whale,PC Emulator,v1.9.1,Daily Mission,เพิ่ม preset ทีมหลายชุดได้ไหม จะได้สลับลงด่านง่ายขึ้น
+FB-125,2026-05-18 08:52,Discord,P83116,Returning Player,iOS,v1.9.1,Story Chapter,เจอบ่อยมากว่า ของที่ต้องใช้ปลุกพลังหายากเกินไป ฟาร์มทั้งวันยังไม่พอ ถ้าแก้ได้จะดีมาก
+FB-126,2026-05-02 01:02,Facebook Comment,P89463,Whale,PC Emulator,v1.9.1,Guild,ส่วนตัวคิดว่า หน้า inventory กรองของได้ไม่ละเอียด หา item ที่ต้องใช้ยาก เพราะกระทบการเล่นพอสมควร
+FB-127,2026-05-10 18:21,Community Post,P58281,Mid Spender,PC Emulator,v1.9.1,,เจอบ่อยมากว่า โหลดแพตช์ช้ามาก ทั้งที่เน็ตปกติ ใช้เวลานานกว่าทุกอัปเดตที่ผ่านมา ขอบคุณครับ/ค่ะ
+FB-128,2026-05-21 00:38,Community Post,P78712,Light Spender,Android,v1.8.0,Guild,อยากฝากทีมงานว่า เกมแลคมากในด่านบอสใหม่ เฟรมตกจนกดหลบไม่ทัน ขอบคุณครับ/ค่ะ
+FB-129,2026-05-19 22:07,App Store Review,P36724,Casual Player,iOS,v1.9.0,Daily Mission,โปรโมชันรายเดือนคุ้มดี แต่หน้า shop อธิบายสิทธิ์ไม่ชัด
+FB-130,2026-05-07 17:20,Community Post,P70249,Guild Leader,PC Emulator,v1.9.0,,อยากให้ปรับ balance ของอาวุธบางชิ้น เพราะแรงต่างกันเกิน เพราะกระทบการเล่นพอสมควร
+FB-131,2026-05-08 08:35,Play Store Review,P74094,Mid Spender,iOS,v1.9.0,,ส่วนตัวคิดว่า พลังที่แนะนำในด่านไม่ตรงกับความยากจริง
+FB-132,2026-05-18 12:57,In-game Survey,P55398,F2P,Android,v1.9.0,Event Shop,เจอบ่อยมากว่า บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก ขอบคุณครับ/ค่ะ
+FB-133,2026-05-18 22:17,Facebook Comment,P39579,Light Spender,iOS,v1.8.1,Character Upgrade,เจอบ่อยมากว่า รู้สึกว่าเกมเริ่ม pay to win มากขึ้นหลังอัปเดตนี้ รบกวนช่วยดูให้หน่อย
+FB-134,2026-05-16 03:43,Facebook Comment,P72580,F2P,iOS,v1.9.1,Gacha Banner,เปิดกาชาไปหลายสิบโรลแล้วยังไม่ได้ตัว rate up รู้สึกท้อมาก ขอบคุณครับ/ค่ะ
+FB-135,2026-05-03 20:36,App Store Review,P14763,New Player,PC Emulator,v1.8.1,Guild,อยากฝากทีมงานว่า ควรมี preview animation หรือทดลองใช้ตัวละครก่อนเปิดกาชา
+FB-136,2026-05-02 00:19,Discord,P81211,Mid Spender,Android,v1.9.1,,อยากฝากทีมงานว่า ระบบ customer support ขอข้อมูลเยอะมาก แต่ยังไม่ได้คำตอบ รบกวนช่วยดูให้หน่อย
+FB-137,2026-05-04 10:10,Community Post,P48669,Mid Spender,PC Emulator,v1.8.1,Story Chapter,อยากให้มีระบบ guild boss ที่ทุกคนช่วยกันตี
+FB-138,2026-05-17 10:05,In-game Survey,P72580,Returning Player,PC Emulator,v1.8.1,,ส่วนตัวคิดว่า อยากให้มีปุ่ม claim all สำหรับของรางวัลหลายรายการ ถ้าแก้ได้จะดีมาก
+FB-139,2026-05-11 09:37,Google Form,P71000,Whale,Android,v1.8.1,Event Shop,ส่วนตัวคิดว่า ของที่ต้องใช้ปลุกพลังหายากเกินไป ฟาร์มทั้งวันยังไม่พอ รบกวนช่วยดูให้หน่อย
+FB-140,2026-05-20 07:14,Facebook Comment,P89395,F2P,Android,v1.9.1,,บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก รบกวนช่วยดูให้หน่อย
+FB-141,2026-05-22 19:55,Discord,P24707,Casual Player,PC Emulator,v1.9.0,Mail Box,รู้สึกว่าเกมเริ่ม pay to win มากขึ้นหลังอัปเดตนี้
+FB-142,2026-05-11 16:28,Discord,P68390,Light Spender,PC Emulator,v1.9.1,Character Upgrade,เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา
+FB-143,2026-05-15 21:51,Play Store Review,P38560,New Player,PC Emulator,v1.9.1,Arena,อยากให้มีปฏิทิน event ล่วงหน้า จะได้วางแผนใช้ทรัพยากร เพราะกระทบการเล่นพอสมควร
+FB-144,2026-05-16 01:18,In-game Survey,P68790,F2P,iOS,v1.9.1,Daily Mission,โหลดแพตช์ช้ามาก ทั้งที่เน็ตปกติ ใช้เวลานานกว่าทุกอัปเดตที่ผ่านมา
+FB-145,2026-05-05 20:55,Customer Support,P10455,F2P,iOS,v1.9.1,Inventory,อยากฝากทีมงานว่า อยากให้มีระบบ replay ดูการต่อสู้ย้อนหลัง เพราะกระทบการเล่นพอสมควร
+FB-146,2026-05-08 07:29,Customer Support,P24790,Mid Spender,iOS,v1.8.1,,เจอบ่อยมากว่า UI ใหม่ดูสะอาดขึ้น เข้าใจง่ายกว่าเดิม ถ้าแก้ได้จะดีมาก
+FB-147,2026-05-03 03:38,Google Form,P62725,New Player,Android,v1.8.1,,เกมแลคมากในด่านบอสใหม่ เฟรมตกจนกดหลบไม่ทัน
+FB-148,2026-05-19 10:36,Customer Support,P78321,Mid Spender,iOS,v1.8.1,,Event รอบนี้ธีมน่ารักดี แต่ภารกิจซ้ำเยอะไปหน่อย
+FB-149,2026-05-21 21:27,Community Post,P51777,Whale,iOS,v1.9.1,,อยากฝากทีมงานว่า ด่าน Character Upgrade ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน
+FB-150,2026-05-08 07:19,Facebook Comment,P83044,New Player,Android,v1.9.1,,เจอบ่อยมากว่า บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก ถ้าแก้ได้จะดีมาก
+FB-151,2026-05-15 11:05,App Store Review,P15183,Mid Spender,iOS,v1.9.1,Mail Box,อยากฝากทีมงานว่า บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก
+FB-152,2026-05-01 06:59,App Store Review,P89220,Returning Player,PC Emulator,v1.9.1,,รางวัล login รอบนี้ดูธรรมดามาก อยากให้มีเพชรหรือ ticket เพิ่ม รบกวนช่วยดูให้หน่อย
+FB-153,2026-05-15 17:41,Customer Support,P71080,Mid Spender,Android,v1.9.0,Gacha Banner,ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง ถ้าแก้ได้จะดีมาก
+FB-154,2026-05-14 01:36,App Store Review,P85909,F2P,PC Emulator,v1.8.0,Mail Box,อยากให้มีช่องทางตรวจประวัติการเติมเงินในเกม รบกวนช่วยดูให้หน่อย
+FB-155,2026-05-08 15:35,Customer Support,P32185,Casual Player,Android,v1.9.1,Story Chapter,ส่วนตัวคิดว่า รางวัล login รอบนี้ดูธรรมดามาก อยากให้มีเพชรหรือ ticket เพิ่ม เพราะกระทบการเล่นพอสมควร
+FB-156,2026-05-02 02:52,Google Form,P40334,Guild Leader,iOS,v1.8.1,,เนื้อเรื่อง event สนุก แต่อยากให้มีเสียงพากย์เพิ่ม เพราะกระทบการเล่นพอสมควร
+FB-157,2026-05-20 20:42,Community Post,P63914,Casual Player,PC Emulator,v1.8.0,Character Upgrade,เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา
+FB-158,2026-05-23 21:27,Facebook Comment,P79003,Returning Player,iOS,v1.8.1,Mail Box,ชอบ mini game ใน event นี้ เล่นง่ายและไม่เครียด เพราะกระทบการเล่นพอสมควร
+FB-159,2026-05-19 07:44,App Store Review,P59436,Returning Player,Android,v1.8.0,Daily Mission,ส่วนตัวคิดว่า ตัวละครสายฮีลดูอ่อนเกินไปเมื่อเทียบกับดาเมจของบอส ถ้าแก้ได้จะดีมาก
+FB-160,2026-05-21 10:36,Discord,P72324,New Player,PC Emulator,v1.8.1,Mail Box,ส่วนตัวคิดว่า หลังอัปเดตล่าสุดเกมค้างตอนเข้าหน้า Guild ต้องปิดเปิดใหม่หลายรอบ ถ้าแก้ได้จะดีมาก
+FB-161,2026-05-06 10:01,App Store Review,P49226,F2P,PC Emulator,v1.9.1,,อยากฝากทีมงานว่า เพลงในแผนที่ใหม่ดีมาก เปิดฟังเพลิน
+FB-162,2026-05-11 12:48,Facebook Comment,P40427,Returning Player,PC Emulator,v1.9.0,Daily Mission,อยากฝากทีมงานว่า รางวัล login รอบนี้ดูธรรมดามาก อยากให้มีเพชรหรือ ticket เพิ่ม เพราะกระทบการเล่นพอสมควร
+FB-163,2026-05-15 15:14,Customer Support,P96595,Guild Leader,PC Emulator,v1.9.1,Mail Box,อยากฝากทีมงานว่า ตัวละครสายฮีลดูอ่อนเกินไปเมื่อเทียบกับดาเมจของบอส รบกวนช่วยดูให้หน่อย
+FB-164,2026-05-09 04:24,Facebook Comment,P10680,Guild Leader,PC Emulator,v1.9.0,Event Shop,แจ้งเตือนสีแดงเยอะเกินไป ไม่รู้ว่าอะไรสำคัญจริง
+FB-165,2026-05-14 14:35,In-game Survey,P88240,New Player,iOS,v1.8.0,Event Shop,บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก
+FB-166,2026-05-03 23:57,App Store Review,P49469,F2P,PC Emulator,v1.9.1,Raid Boss,ส่วนตัวคิดว่า ตัวละครสายฮีลดูอ่อนเกินไปเมื่อเทียบกับดาเมจของบอส ถ้าแก้ได้จะดีมาก
+FB-167,2026-05-16 02:23,Play Store Review,P49932,Casual Player,iOS,v1.8.1,Guild,ส่วนตัวคิดว่า เข้าเกมตอนกลางคืนแล้วเด้งออกบ่อย โดยเฉพาะตอนเปลี่ยนแผนที่ รบกวนช่วยดูให้หน่อย
+FB-168,2026-05-21 19:08,Play Store Review,P51830,Light Spender,Android,v1.9.1,Daily Mission,ตัวละครสายฮีลดูอ่อนเกินไปเมื่อเทียบกับดาเมจของบอส ถ้าแก้ได้จะดีมาก
+FB-169,2026-05-09 12:23,Discord,P13527,Light Spender,PC Emulator,v1.8.1,Character Upgrade,รู้สึกว่าเกมเริ่ม pay to win มากขึ้นหลังอัปเดตนี้ ถ้าแก้ได้จะดีมาก
+FB-170,2026-05-03 13:43,Community Post,P65460,Mid Spender,iOS,v1.8.1,Guild,UI ใหม่ดูสะอาดขึ้น เข้าใจง่ายกว่าเดิม ขอบคุณครับ/ค่ะ
+FB-171,2026-05-13 17:32,In-game Survey,P80373,New Player,PC Emulator,v1.9.0,,ส่วนตัวคิดว่า ตัวหนังสือในหน้ารายละเอียดสกิลเล็ก อ่านยากบนมือถือ เพราะกระทบการเล่นพอสมควร
+FB-172,2026-05-06 20:39,Google Form,P66420,Guild Leader,PC Emulator,v1.9.0,,อยากฝากทีมงานว่า ขอตัวละครสายซัพพอร์ตใหม่ ๆ บ้าง ตอนนี้มีแต่ดาเมจ รบกวนช่วยดูให้หน่อย
+FB-173,2026-05-19 22:36,App Store Review,P75597,Whale,Android,v1.9.1,Mail Box,เจอบ่อยมากว่า เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา เพราะกระทบการเล่นพอสมควร
+FB-174,2026-05-04 23:09,Customer Support,P78303,Whale,Android,v1.9.1,,ส่วนตัวคิดว่า อยากให้มีช่องทางตรวจประวัติการเติมเงินในเกม
+FB-175,2026-05-02 22:07,Google Form,P41970,Returning Player,Android,v1.8.1,,Event ใช้ stamina รวมกับด่านปกติ ทำให้ต้องเลือกว่าจะฟาร์มอะไร รบกวนช่วยดูให้หน่อย
+FB-176,2026-05-13 20:11,Facebook Comment,P35863,Guild Leader,PC Emulator,v1.9.1,Mail Box,ส่วนตัวคิดว่า อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก
+FB-177,2026-05-03 18:06,Facebook Comment,P97910,Whale,Android,v1.8.1,Raid Boss,ด่าน Inventory ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน ขอบคุณครับ/ค่ะ
+FB-178,2026-05-19 03:22,Customer Support,P87354,F2P,Android,v1.9.0,,เจอบ่อยมากว่า อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก ถ้าแก้ได้จะดีมาก
+FB-179,2026-05-12 22:09,In-game Survey,P93296,F2P,Android,v1.9.1,Gacha Banner,กดรับรางวัลแล้วขึ้น loading นานมาก สุดท้ายของไม่เข้า inventory
+FB-180,2026-05-05 05:20,Community Post,P73518,New Player,PC Emulator,v1.9.0,,ส่วนตัวคิดว่า อยากให้มีระบบ guild boss ที่ทุกคนช่วยกันตี รบกวนช่วยดูให้หน่อย
+FB-181,2026-05-23 14:31,Facebook Comment,P39470,New Player,iOS,v1.8.1,Raid Boss,ส่วนตัวคิดว่า Tutorial ช่วงแรกเร็วไป อธิบายระบบเยอะจนจำไม่ทัน ถ้าแก้ได้จะดีมาก
+FB-182,2026-05-17 03:36,Discord,P67850,Whale,Android,v1.8.0,,ส่วนตัวคิดว่า ถ้าไม่เติมเงินแทบตามคนอื่นไม่ทัน เพราะทรัพยากรแจกน้อย เพราะกระทบการเล่นพอสมควร
+FB-183,2026-05-09 11:55,Discord,P55957,Returning Player,Android,v1.8.1,Mail Box,ล็อกอินด้วย Facebook ไม่ได้ตั้งแต่เมื่อวาน ถ้าแก้ได้จะดีมาก
+FB-184,2026-05-07 01:36,Customer Support,P47923,Mid Spender,PC Emulator,v1.8.1,Raid Boss,โปรโมชันรายเดือนคุ้มดี แต่หน้า shop อธิบายสิทธิ์ไม่ชัด
+FB-185,2026-05-21 04:44,Facebook Comment,P98635,F2P,iOS,v1.9.0,,เวลาจัด event สั้นเกินไป คนทำงานตามเก็บของไม่ทัน รบกวนช่วยดูให้หน่อย
+FB-186,2026-05-21 02:25,Play Store Review,P52898,Whale,PC Emulator,v1.9.1,,ส่วนตัวคิดว่า หน้าจอ Daily Mission แสดงผลเพี้ยน ปุ่มทับกันบนมือถือจอเล็ก
+FB-187,2026-05-12 02:50,In-game Survey,P47171,Guild Leader,iOS,v1.8.1,Story Chapter,อยากฝากทีมงานว่า ขอตัวละครสายซัพพอร์ตใหม่ ๆ บ้าง ตอนนี้มีแต่ดาเมจ ขอบคุณครับ/ค่ะ
+FB-188,2026-05-04 20:50,Community Post,P66072,Returning Player,iOS,v1.8.1,Arena,Event ใช้ stamina รวมกับด่านปกติ ทำให้ต้องเลือกว่าจะฟาร์มอะไร
+FB-189,2026-05-21 11:16,Discord,P40689,F2P,Android,v1.8.0,Raid Boss,แพ็กเกจเติมเงินราคาสูงไปเมื่อเทียบกับจำนวนเพชรที่ได้
+FB-190,2026-05-03 04:37,App Store Review,P25806,Casual Player,PC Emulator,v1.8.0,Story Chapter,ตัวละคร Luna แรงเกินไป เจอใน arena แล้วแทบไม่มีทางสู้ ถ้าแก้ได้จะดีมาก
+FB-191,2026-05-03 23:51,Discord,P27973,Whale,iOS,v1.9.0,,บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์ ถ้าแก้ได้จะดีมาก
+FB-192,2026-05-01 19:41,Facebook Comment,P63963,Whale,Android,v1.8.1,Guild,เจอบ่อยมากว่า อยากให้มีปุ่ม claim all สำหรับของรางวัลหลายรายการ เพราะกระทบการเล่นพอสมควร
+FB-193,2026-05-19 23:24,Customer Support,P42527,Whale,Android,v1.8.1,Event Shop,ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง
+FB-194,2026-05-17 19:32,App Store Review,P74865,Guild Leader,PC Emulator,v1.9.0,Inventory,ควรมี preview animation หรือทดลองใช้ตัวละครก่อนเปิดกาชา
+FB-195,2026-05-17 00:23,Customer Support,P71736,Guild Leader,iOS,v1.9.1,Guild,เจอบ่อยมากว่า ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง
+FB-196,2026-05-07 01:59,Google Form,P20803,Mid Spender,Android,v1.9.1,Daily Mission,เมนู Mail Box หาเจอยาก ต้องกดหลายขั้นตอนเกินไป รบกวนช่วยดูให้หน่อย
+FB-197,2026-05-17 06:51,Facebook Comment,P50654,Whale,PC Emulator,v1.9.1,Event Shop,เนื้อเรื่อง event สนุก แต่อยากให้มีเสียงพากย์เพิ่ม
+FB-198,2026-05-04 14:39,Google Form,P11487,F2P,Android,v1.8.0,Guild,หน้า inventory กรองของได้ไม่ละเอียด หา item ที่ต้องใช้ยาก ถ้าแก้ได้จะดีมาก
+FB-199,2026-05-09 23:56,Discord,P44465,Whale,iOS,v1.9.1,Event Shop,เพลงในแผนที่ใหม่ดีมาก เปิดฟังเพลิน ขอบคุณครับ/ค่ะ
+FB-200,2026-05-02 15:54,Facebook Comment,P85223,F2P,Android,v1.9.0,,เจอบ่อยมากว่า อยากให้ pity ชัดเจนกว่านี้ ตอนนี้อ่านเงื่อนไขแล้วงง รบกวนช่วยดูให้หน่อย
+FB-201,2026-05-02 00:15,Google Form,P33456,Whale,Android,v1.9.1,,เจอบ่อยมากว่า อยากให้ pity ชัดเจนกว่านี้ ตอนนี้อ่านเงื่อนไขแล้วงง
+FB-202,2026-05-14 07:20,App Store Review,P84912,Whale,Android,v1.9.0,,อยากฝากทีมงานว่า อัปเดตรอบนี้ภาพสวยขึ้นมาก โดยเฉพาะฉากต่อสู้ใหม่ ขอบคุณครับ/ค่ะ
+FB-203,2026-05-13 02:56,Community Post,P11044,Mid Spender,Android,v1.9.0,Gacha Banner,เจอบ่อยมากว่า ด่าน Guild ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน
+FB-204,2026-05-19 15:49,App Store Review,P13133,Light Spender,PC Emulator,v1.8.1,Daily Mission,ส่วนตัวคิดว่า ของที่ต้องใช้ปลุกพลังหายากเกินไป ฟาร์มทั้งวันยังไม่พอ รบกวนช่วยดูให้หน่อย
+FB-205,2026-05-10 03:13,App Store Review,P28661,Casual Player,Android,v1.8.0,,อยากฝากทีมงานว่า ด่าน Story Chapter ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน ถ้าแก้ได้จะดีมาก
+FB-206,2026-05-15 23:05,Discord,P18163,F2P,PC Emulator,v1.9.1,Mail Box,อยากฝากทีมงานว่า เสียงเอฟเฟกต์หายหลังจบการต่อสู้ ต้อง restart เกมถึงกลับมา รบกวนช่วยดูให้หน่อย
+FB-207,2026-05-23 23:20,Customer Support,P27840,Mid Spender,Android,v1.8.1,Inventory,ทีมงานตอบปัญหาใน community เร็วกว่าที่คิด ขอบคุณมาก ถ้าแก้ได้จะดีมาก
+FB-208,2026-05-15 10:26,Discord,P44735,Whale,PC Emulator,v1.8.1,Gacha Banner,ตัวหนังสือในหน้ารายละเอียดสกิลเล็ก อ่านยากบนมือถือ ถ้าแก้ได้จะดีมาก
+FB-209,2026-05-05 02:45,App Store Review,P32789,Guild Leader,Android,v1.8.0,Raid Boss,หน้าจอ Mail Box แสดงผลเพี้ยน ปุ่มทับกันบนมือถือจอเล็ก รบกวนช่วยดูให้หน่อย
+FB-210,2026-05-04 14:06,Facebook Comment,P39135,New Player,iOS,v1.8.0,,เจอบ่อยมากว่า อยากให้ปรับ balance ของอาวุธบางชิ้น เพราะแรงต่างกันเกิน
+FB-211,2026-05-03 00:04,App Store Review,P26059,Casual Player,PC Emulator,v1.8.1,Story Chapter,เจอบ่อยมากว่า ตอนจัดทีมอยากเห็น stat เปรียบเทียบก่อนและหลังเปลี่ยนอุปกรณ์ รบกวนช่วยดูให้หน่อย
+FB-212,2026-05-16 00:24,In-game Survey,P46042,Whale,iOS,v1.8.1,,อยากฝากทีมงานว่า เนื้อเรื่อง event สนุก แต่อยากให้มีเสียงพากย์เพิ่ม ถ้าแก้ได้จะดีมาก
+FB-213,2026-05-21 09:31,In-game Survey,P27987,Casual Player,PC Emulator,v1.8.0,Daily Mission,เจอบ่อยมากว่า อยากให้เพิ่มโหมด co-op เล่นกับเพื่อนได้แบบจริงจัง
+FB-214,2026-05-12 15:34,Community Post,P51795,Whale,Android,v1.9.1,Arena,ส่วนตัวคิดว่า Banner ใหม่ออกถี่เกินไป เก็บเพชรไม่ทันเลย ขอบคุณครับ/ค่ะ
+FB-215,2026-05-12 18:14,Facebook Comment,P38758,Light Spender,iOS,v1.8.1,Arena,ส่วนตัวคิดว่า เปิดกาชาไปหลายสิบโรลแล้วยังไม่ได้ตัว rate up รู้สึกท้อมาก เพราะกระทบการเล่นพอสมควร
+FB-216,2026-05-19 10:51,Customer Support,P83873,New Player,PC Emulator,v1.9.0,,อยากให้มีปฏิทิน event ล่วงหน้า จะได้วางแผนใช้ทรัพยากร
+FB-217,2026-05-02 02:03,App Store Review,P53481,Light Spender,PC Emulator,v1.8.0,Arena,UI ใหม่ดูสะอาดขึ้น เข้าใจง่ายกว่าเดิม ถ้าแก้ได้จะดีมาก
+FB-218,2026-05-11 01:01,Facebook Comment,P57826,F2P,PC Emulator,v1.8.0,,อยากฝากทีมงานว่า ช่วยเพิ่มภาษาไทยในเสียงพากย์หรืออย่างน้อย subtitle ให้ครบ
+FB-219,2026-05-11 04:10,In-game Survey,P90440,Casual Player,PC Emulator,v1.9.0,Character Upgrade,ตัวละครสายฮีลดูอ่อนเกินไปเมื่อเทียบกับดาเมจของบอส รบกวนช่วยดูให้หน่อย
+FB-220,2026-05-10 04:11,Google Form,P90134,Guild Leader,PC Emulator,v1.8.0,Story Chapter,อยากฝากทีมงานว่า ทองในเกมขาดตลอด อัปเกรดตัวละครแทบไม่พอ ขอบคุณครับ/ค่ะ
+FB-221,2026-05-08 11:20,Facebook Comment,P37483,Returning Player,PC Emulator,v1.9.0,Raid Boss,อยากฝากทีมงานว่า Event ใช้ stamina รวมกับด่านปกติ ทำให้ต้องเลือกว่าจะฟาร์มอะไร
+FB-222,2026-05-13 14:46,In-game Survey,P56036,Guild Leader,iOS,v1.9.1,,หน้าจอ Event Shop แสดงผลเพี้ยน ปุ่มทับกันบนมือถือจอเล็ก
+FB-223,2026-05-06 14:04,Google Form,P19725,New Player,Android,v1.9.0,Event Shop,อยากฝากทีมงานว่า ระบบแจ้งเตือนเควสต์ขึ้นซ้ำ ๆ ทั้งที่เคลียร์ไปแล้ว
+FB-224,2026-05-20 19:57,Community Post,P31626,New Player,PC Emulator,v1.9.1,,อยากให้มีระบบ guild boss ที่ทุกคนช่วยกันตี รบกวนช่วยดูให้หน่อย
+FB-225,2026-05-14 22:35,Play Store Review,P61498,Mid Spender,PC Emulator,v1.9.0,Arena,ด่าน Event Shop ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน
+FB-226,2026-05-03 09:52,Community Post,P20739,Returning Player,iOS,v1.8.0,Raid Boss,อยากให้มีปุ่ม claim all สำหรับของรางวัลหลายรายการ ถ้าแก้ได้จะดีมาก
+FB-227,2026-05-03 20:34,In-game Survey,P15848,Whale,iOS,v1.9.1,Gacha Banner,อยากฝากทีมงานว่า เกมแลคมากในด่านบอสใหม่ เฟรมตกจนกดหลบไม่ทัน รบกวนช่วยดูให้หน่อย
+FB-228,2026-05-23 21:06,Discord,P87296,Whale,PC Emulator,v1.9.1,,ภารกิจ event บังคับเล่นหลายรอบจนรู้สึก grind มาก
+FB-229,2026-05-16 18:56,App Store Review,P75811,Mid Spender,Android,v1.8.0,Arena,เจอบ่อยมากว่า เกมแลคมากในด่านบอสใหม่ เฟรมตกจนกดหลบไม่ทัน ขอบคุณครับ/ค่ะ
+FB-230,2026-05-07 06:08,Google Form,P87994,Returning Player,Android,v1.9.1,Guild,เนื้อเรื่อง event สนุก แต่อยากให้มีเสียงพากย์เพิ่ม
+FB-231,2026-05-18 10:54,Play Store Review,P91665,Casual Player,PC Emulator,v1.8.0,,เจอบ่อยมากว่า ขอตัวละครสายซัพพอร์ตใหม่ ๆ บ้าง ตอนนี้มีแต่ดาเมจ ถ้าแก้ได้จะดีมาก
+FB-232,2026-05-19 18:48,Discord,P55071,Returning Player,iOS,v1.9.0,,ตัวหนังสือในหน้ารายละเอียดสกิลเล็ก อ่านยากบนมือถือ เพราะกระทบการเล่นพอสมควร
+FB-233,2026-05-06 08:25,Facebook Comment,P41139,Guild Leader,PC Emulator,v1.8.0,Story Chapter,ส่วนตัวคิดว่า ถ้าไม่เติมเงินแทบตามคนอื่นไม่ทัน เพราะทรัพยากรแจกน้อย
+FB-234,2026-05-10 08:53,Community Post,P52056,Returning Player,PC Emulator,v1.8.1,Gacha Banner,ชอบ mini game ใน event นี้ เล่นง่ายและไม่เครียด รบกวนช่วยดูให้หน่อย
+FB-235,2026-05-16 16:55,Customer Support,P62872,F2P,iOS,v1.8.0,Character Upgrade,ตัวละคร Astra แรงเกินไป เจอใน arena แล้วแทบไม่มีทางสู้ ถ้าแก้ได้จะดีมาก
+FB-236,2026-05-08 01:29,Google Form,P76207,Light Spender,Android,v1.9.0,Gacha Banner,อยากให้เพิ่มโหมด co-op เล่นกับเพื่อนได้แบบจริงจัง
+FB-237,2026-05-15 05:55,Community Post,P21847,Whale,PC Emulator,v1.9.0,Raid Boss,ส่วนตัวคิดว่า อัปเดตรอบนี้ภาพสวยขึ้นมาก โดยเฉพาะฉากต่อสู้ใหม่ เพราะกระทบการเล่นพอสมควร
+FB-238,2026-05-08 20:14,App Store Review,P99417,Guild Leader,Android,v1.8.0,,เจอบ่อยมากว่า เควสต์รายสัปดาห์ให้แต้มไม่พอแลกของหลัก
+FB-239,2026-05-20 09:45,Play Store Review,P71171,Guild Leader,Android,v1.9.0,Inventory,อยากให้มีระบบ guild boss ที่ทุกคนช่วยกันตี รบกวนช่วยดูให้หน่อย
+FB-240,2026-05-22 11:35,Play Store Review,P93964,Returning Player,Android,v1.9.1,Raid Boss,อยากให้มีปฏิทิน event ล่วงหน้า จะได้วางแผนใช้ทรัพยากร เพราะกระทบการเล่นพอสมควร
+FB-241,2026-05-02 19:25,Customer Support,P44003,F2P,PC Emulator,v1.8.0,Raid Boss,เจอบ่อยมากว่า ของที่ต้องใช้ปลุกพลังหายากเกินไป ฟาร์มทั้งวันยังไม่พอ
+FB-242,2026-05-11 23:45,App Store Review,P96194,Casual Player,PC Emulator,v1.9.0,Guild,เจอบ่อยมากว่า ด่าน Mail Box ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน
+FB-243,2026-05-18 05:43,Customer Support,P65112,Returning Player,PC Emulator,v1.8.1,Raid Boss,อยากฝากทีมงานว่า กิจกรรมนี้ใช้ stamina เยอะ แต่ของแลกในร้านไม่ค่อยคุ้ม รบกวนช่วยดูให้หน่อย
+FB-244,2026-05-16 01:55,Discord,P60026,Light Spender,Android,v1.8.0,,ส่วนตัวคิดว่า บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก
+FB-245,2026-05-19 14:09,Customer Support,P51079,F2P,PC Emulator,v1.8.0,Guild,บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์ ถ้าแก้ได้จะดีมาก
+FB-246,2026-05-16 02:08,In-game Survey,P60242,Guild Leader,PC Emulator,v1.9.1,Gacha Banner,เจอบ่อยมากว่า หน้าจอ Inventory แสดงผลเพี้ยน ปุ่มทับกันบนมือถือจอเล็ก
+FB-247,2026-05-01 21:00,App Store Review,P75973,Whale,iOS,v1.9.0,Daily Mission,เจอบ่อยมากว่า อันดับ event แข่งขันหนักมาก ผู้เล่นทั่วไปสู้ยาก
+FB-248,2026-05-17 19:33,Customer Support,P74248,F2P,Android,v1.9.0,,ส่วนตัวคิดว่า ของรางวัลรายวันน้อยไปเมื่อเทียบกับเวลาที่ต้องเล่น ขอบคุณครับ/ค่ะ
+FB-249,2026-05-05 06:46,Google Form,P59177,F2P,PC Emulator,v1.8.0,Arena,เควสต์รายสัปดาห์ให้แต้มไม่พอแลกของหลัก ขอบคุณครับ/ค่ะ
+FB-250,2026-05-21 00:03,Discord,P72180,Casual Player,Android,v1.9.1,Raid Boss,อยากฝากทีมงานว่า ของรางวัลรายวันน้อยไปเมื่อเทียบกับเวลาที่ต้องเล่น
+FB-251,2026-05-22 16:17,Facebook Comment,P75239,Returning Player,Android,v1.8.0,Event Shop,อยากฝากทีมงานว่า ของรางวัลรายวันน้อยไปเมื่อเทียบกับเวลาที่ต้องเล่น
+FB-252,2026-05-14 09:10,Google Form,P53332,Casual Player,PC Emulator,v1.8.1,Gacha Banner,ของที่ต้องใช้ปลุกพลังหายากเกินไป ฟาร์มทั้งวันยังไม่พอ ขอบคุณครับ/ค่ะ
+FB-253,2026-05-05 02:49,Discord,P48800,Returning Player,PC Emulator,v1.9.0,Gacha Banner,อยากฝากทีมงานว่า กดรับรางวัลแล้วขึ้น loading นานมาก สุดท้ายของไม่เข้า inventory ถ้าแก้ได้จะดีมาก
+FB-254,2026-05-11 13:47,Discord,P96947,New Player,iOS,v1.8.0,,เข้าเกมตอนกลางคืนแล้วเด้งออกบ่อย โดยเฉพาะตอนเปลี่ยนแผนที่ ขอบคุณครับ/ค่ะ
+FB-255,2026-05-12 10:11,Discord,P72684,Guild Leader,Android,v1.9.1,Daily Mission,อยากฝากทีมงานว่า อยากให้ปรับ balance ของอาวุธบางชิ้น เพราะแรงต่างกันเกิน
+FB-256,2026-05-02 05:06,In-game Survey,P57002,Casual Player,PC Emulator,v1.9.1,Daily Mission,อยากฝากทีมงานว่า แพ็กเกจเติมเงินราคาสูงไปเมื่อเทียบกับจำนวนเพชรที่ได้ ขอบคุณครับ/ค่ะ
+FB-257,2026-05-15 01:04,Play Store Review,P98857,Whale,PC Emulator,v1.8.0,,แพ็กเกจเติมเงินราคาสูงไปเมื่อเทียบกับจำนวนเพชรที่ได้ ถ้าแก้ได้จะดีมาก
+FB-258,2026-05-23 19:06,In-game Survey,P29484,Light Spender,PC Emulator,v1.9.1,Daily Mission,เจอบ่อยมากว่า ภารกิจ event บังคับเล่นหลายรอบจนรู้สึก grind มาก ขอบคุณครับ/ค่ะ
+FB-259,2026-05-16 15:55,Facebook Comment,P16599,Casual Player,iOS,v1.9.0,Raid Boss,Event รอบนี้ธีมน่ารักดี แต่ภารกิจซ้ำเยอะไปหน่อย เพราะกระทบการเล่นพอสมควร
+FB-260,2026-05-15 18:28,Discord,P95638,Casual Player,Android,v1.9.0,Gacha Banner,อยากให้มีปฏิทิน event ล่วงหน้า จะได้วางแผนใช้ทรัพยากร ถ้าแก้ได้จะดีมาก
+FB-261,2026-05-20 19:40,Play Store Review,P57624,Light Spender,PC Emulator,v1.9.1,,ด่าน Character Upgrade ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน
+FB-262,2026-05-16 22:42,Customer Support,P10287,Casual Player,PC Emulator,v1.8.0,Inventory,เจอบ่อยมากว่า Tutorial ช่วงแรกเร็วไป อธิบายระบบเยอะจนจำไม่ทัน เพราะกระทบการเล่นพอสมควร
+FB-263,2026-05-04 01:57,Facebook Comment,P35679,F2P,Android,v1.9.1,Mail Box,แจ้งเตือนสีแดงเยอะเกินไป ไม่รู้ว่าอะไรสำคัญจริง ขอบคุณครับ/ค่ะ
+FB-264,2026-05-11 03:48,In-game Survey,P76086,Returning Player,iOS,v1.9.1,Mail Box,ของแจกครบรอบดีเกินคาด รู้สึกว่าเกมใส่ใจผู้เล่น ขอบคุณครับ/ค่ะ
+FB-265,2026-05-18 13:53,Community Post,P26827,F2P,PC Emulator,v1.8.1,,อยากฝากทีมงานว่า ระบบแจ้งเตือนเควสต์ขึ้นซ้ำ ๆ ทั้งที่เคลียร์ไปแล้ว
+FB-266,2026-05-23 07:17,In-game Survey,P28111,Mid Spender,Android,v1.9.1,,ส่วนตัวคิดว่า ได้ตัวซ้ำบ่อยมาก แต่ระบบแลกชิ้นส่วนยังไม่ค่อยคุ้ม เพราะกระทบการเล่นพอสมควร
+FB-267,2026-05-18 20:13,App Store Review,P27389,Mid Spender,iOS,v1.9.0,,อยากฝากทีมงานว่า บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก ขอบคุณครับ/ค่ะ
+FB-268,2026-05-11 22:07,Customer Support,P47477,Casual Player,PC Emulator,v1.9.1,Character Upgrade,อยากฝากทีมงานว่า แพ็กเกจเติมเงินราคาสูงไปเมื่อเทียบกับจำนวนเพชรที่ได้ ขอบคุณครับ/ค่ะ
+FB-269,2026-05-13 04:03,Google Form,P99573,Mid Spender,iOS,v1.8.1,,อยากให้มีระบบ replay ดูการต่อสู้ย้อนหลัง
+FB-270,2026-05-15 03:39,App Store Review,P97096,Guild Leader,PC Emulator,v1.8.1,Raid Boss,แจ้งเตือนสีแดงเยอะเกินไป ไม่รู้ว่าอะไรสำคัญจริง รบกวนช่วยดูให้หน่อย
+FB-271,2026-05-09 06:39,Community Post,P35362,Whale,iOS,v1.8.1,,ตัวละครสายฮีลดูอ่อนเกินไปเมื่อเทียบกับดาเมจของบอส
+FB-272,2026-05-04 12:02,In-game Survey,P10739,Mid Spender,Android,v1.8.1,Raid Boss,อยากฝากทีมงานว่า กิจกรรมนี้ใช้ stamina เยอะ แต่ของแลกในร้านไม่ค่อยคุ้ม เพราะกระทบการเล่นพอสมควร
+FB-273,2026-05-02 20:39,Play Store Review,P51662,Whale,Android,v1.8.0,,แพ็กเกจเติมเงินราคาสูงไปเมื่อเทียบกับจำนวนเพชรที่ได้ เพราะกระทบการเล่นพอสมควร
+FB-274,2026-05-14 17:34,In-game Survey,P96944,Whale,iOS,v1.8.1,,เจอบ่อยมากว่า เนื้อเรื่อง event สนุก แต่อยากให้มีเสียงพากย์เพิ่ม
+FB-275,2026-05-21 00:07,Customer Support,P99463,Light Spender,Android,v1.8.1,,ส่วนตัวคิดว่า ระบบ auto battle ใช้สกิลแปลก ๆ ทำให้แพ้ทั้งที่ power ถึง เพราะกระทบการเล่นพอสมควร
+FB-276,2026-05-10 00:58,Customer Support,P51984,Casual Player,PC Emulator,v1.9.1,Inventory,เจอบ่อยมากว่า ตัวละคร Mika แรงเกินไป เจอใน arena แล้วแทบไม่มีทางสู้ ขอบคุณครับ/ค่ะ
+FB-277,2026-05-03 06:42,App Store Review,P94746,Guild Leader,PC Emulator,v1.8.0,Daily Mission,Event รอบนี้ทำให้กลับมาเล่นทุกวันอีกครั้ง ขอบคุณครับ/ค่ะ
+FB-278,2026-05-11 01:05,Discord,P39837,F2P,iOS,v1.9.0,Mail Box,ส่วนตัวคิดว่า ตัวหนังสือในหน้ารายละเอียดสกิลเล็ก อ่านยากบนมือถือ ขอบคุณครับ/ค่ะ
+FB-279,2026-05-13 21:07,Google Form,P19514,Returning Player,PC Emulator,v1.8.0,,อยากให้ปรับ balance ของอาวุธบางชิ้น เพราะแรงต่างกันเกิน
+FB-280,2026-05-15 12:25,Google Form,P81529,F2P,Android,v1.8.1,Daily Mission,ชอบ mini game ใน event นี้ เล่นง่ายและไม่เครียด รบกวนช่วยดูให้หน่อย
+FB-281,2026-05-05 03:02,Google Form,P37752,Guild Leader,PC Emulator,v1.8.0,Story Chapter,เจอบ่อยมากว่า ควรมี preview animation หรือทดลองใช้ตัวละครก่อนเปิดกาชา เพราะกระทบการเล่นพอสมควร
+FB-282,2026-05-09 06:07,Facebook Comment,P48096,New Player,PC Emulator,v1.9.1,Event Shop,บอสใหม่มีสกิล one shot บ่อยเกิน รู้สึกไม่แฟร์ เพราะกระทบการเล่นพอสมควร
+FB-283,2026-05-05 21:41,App Store Review,P51652,Mid Spender,iOS,v1.8.0,,รางวัล login รอบนี้ดูธรรมดามาก อยากให้มีเพชรหรือ ticket เพิ่ม รบกวนช่วยดูให้หน่อย
+FB-284,2026-05-12 10:27,Facebook Comment,P93995,Whale,iOS,v1.8.1,,เจอบ่อยมากว่า บางทีมใน PvP ชนะง่ายเกินไปจน meta แคบมาก เพราะกระทบการเล่นพอสมควร
+FB-285,2026-05-12 09:31,Discord,P28350,Returning Player,iOS,v1.9.0,,ส่วนตัวคิดว่า อยากให้มีระบบ guild boss ที่ทุกคนช่วยกันตี ถ้าแก้ได้จะดีมาก
+FB-286,2026-05-01 18:37,In-game Survey,P80736,Light Spender,PC Emulator,v1.8.0,Character Upgrade,เจอบ่อยมากว่า กิจกรรมนี้ใช้ stamina เยอะ แต่ของแลกในร้านไม่ค่อยคุ้ม ขอบคุณครับ/ค่ะ
+FB-287,2026-05-10 04:29,Discord,P99674,Whale,Android,v1.8.0,Mail Box,เจอบ่อยมากว่า ตอนจัดทีมอยากเห็น stat เปรียบเทียบก่อนและหลังเปลี่ยนอุปกรณ์ ขอบคุณครับ/ค่ะ
+FB-288,2026-05-22 04:47,Community Post,P40375,New Player,Android,v1.8.1,,เจอบ่อยมากว่า Event ใช้ stamina รวมกับด่านปกติ ทำให้ต้องเลือกว่าจะฟาร์มอะไร เพราะกระทบการเล่นพอสมควร
+FB-289,2026-05-16 14:56,Google Form,P78337,Whale,iOS,v1.8.0,,ด่าน Inventory ยากเกินไปสำหรับคนที่เพิ่งเริ่มเล่นไม่ถึงเดือน ถ้าแก้ได้จะดีมาก
+FB-290,2026-05-13 20:24,Customer Support,P77681,Returning Player,PC Emulator,v1.9.0,Inventory,เจอบ่อยมากว่า ของที่ต้องใช้ปลุกพลังหายากเกินไป ฟาร์มทั้งวันยังไม่พอ
+FB-291,2026-05-17 04:28,Facebook Comment,P30625,Returning Player,iOS,v1.9.0,Guild,เจอบ่อยมากว่า ตอนจัดทีมอยากเห็น stat เปรียบเทียบก่อนและหลังเปลี่ยนอุปกรณ์
+FB-292,2026-05-04 15:43,Community Post,P12942,Light Spender,Android,v1.8.1,Daily Mission,อยากให้ pity ชัดเจนกว่านี้ ตอนนี้อ่านเงื่อนไขแล้วงง ขอบคุณครับ/ค่ะ
+FB-293,2026-05-21 16:02,Facebook Comment,P77717,F2P,iOS,v1.9.0,,ทองในเกมขาดตลอด อัปเกรดตัวละครแทบไม่พอ
+FB-294,2026-05-20 15:55,Community Post,P33839,Light Spender,iOS,v1.9.1,Mail Box,เปิดกาชาไปหลายสิบโรลแล้วยังไม่ได้ตัว rate up รู้สึกท้อมาก ถ้าแก้ได้จะดีมาก
+FB-295,2026-05-15 19:37,Discord,P36522,Guild Leader,iOS,v1.9.1,Arena,อยากฝากทีมงานว่า ควรมี preview animation หรือทดลองใช้ตัวละครก่อนเปิดกาชา รบกวนช่วยดูให้หน่อย
+FB-296,2026-05-16 19:38,Google Form,P89098,Returning Player,PC Emulator,v1.8.0,Guild,อยากให้มีปฏิทิน event ล่วงหน้า จะได้วางแผนใช้ทรัพยากร
+FB-297,2026-05-23 16:27,App Store Review,P22807,Guild Leader,Android,v1.9.0,Mail Box,เกมแลคมากในด่านบอสใหม่ เฟรมตกจนกดหลบไม่ทัน
+FB-298,2026-05-14 08:12,Google Form,P95792,New Player,PC Emulator,v1.8.0,Daily Mission,เจอบ่อยมากว่า รางวัล login รอบนี้ดูธรรมดามาก อยากให้มีเพชรหรือ ticket เพิ่ม เพราะกระทบการเล่นพอสมควร
+FB-299,2026-05-21 18:16,Play Store Review,P36698,Guild Leader,PC Emulator,v1.9.0,Daily Mission,ปุ่มย้อนกลับบางหน้าพาออกไปหน้าแรกเลย ทำให้เสียเวลา ถ้าแก้ได้จะดีมาก
+FB-300,2026-05-16 08:19,Customer Support,P96413,Guild Leader,PC Emulator,v1.8.1,,เจอบ่อยมากว่า Tutorial ช่วงแรกเร็วไป อธิบายระบบเยอะจนจำไม่ทัน เพราะกระทบการเล่นพอสมควร
