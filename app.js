@@ -199,7 +199,7 @@ const state = {
   rows: [],
   analytics: null,
   filteredRows: [],
-  sortKey: "priority",
+  sortKey: "feedback_id",
   sortDir: "asc",
   page: 1,
   pageSize: 25,
@@ -901,6 +901,10 @@ function sortRows() {
     if (state.sortKey === "priority") {
       left = priorityRank[left] || 9;
       right = priorityRank[right] || 9;
+    }
+    if (state.sortKey === "feedback_id") {
+      left = numericId(left);
+      right = numericId(right);
     }
     if (left < right) return -1 * direction;
     if (left > right) return 1 * direction;
